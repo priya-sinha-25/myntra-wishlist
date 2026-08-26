@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-08-26T07:27:15.300382+00:00",
+  "summary": {
+    "total_items": 583,
+    "wishlist_related_count": 113,
+    "wishlist_related_pct": 19.4,
+    "real_signal_count": 329,
+    "silent_signal_count": 31,
+    "noise_count": 223,
+    "addressable_without_discount_count": 195,
+    "addressable_without_discount_pct": 33.4,
+    "external_validation_count": 28
+  },
+  "source_breakdown": {
+    "reddit": 35,
+    "forum": 17,
+    "social": 17,
+    "app_store": 5,
+    "quora": 2,
+    "play_store": 491,
+    "blog": 5,
+    "ux_research": 11
+  },
+  "signal_breakdown": {
+    "silent": 31,
+    "real": 329,
+    "noise": 223
+  },
+  "blocker_ranking": [
+    [
+      "delivery_returns",
+      85
+    ],
+    [
+      "quality_doubt",
+      74
+    ],
+    [
+      "price_wait",
+      64
+    ],
+    [
+      "size_fit",
+      39
+    ],
+    [
+      "app_ux",
+      24
+    ],
+    [
+      "decision_overload",
+      16
+    ],
+    [
+      "oos",
+      3
+    ],
+    [
+      "forgot",
+      2
+    ],
+    [
+      "occasion_mismatch",
+      2
+    ]
+  ],
+  "wishlist_blocker_ranking": [
+    [
+      "size_fit",
+      28
+    ],
+    [
+      "decision_overload",
+      16
+    ],
+    [
+      "price_wait",
+      12
+    ],
+    [
+      "quality_doubt",
+      10
+    ],
+    [
+      "delivery_returns",
+      9
+    ],
+    [
+      "app_ux",
+      9
+    ],
+    [
+      "oos",
+      3
+    ],
+    [
+      "forgot",
+      2
+    ],
+    [
+      "occasion_mismatch",
+      2
+    ]
+  ],
+  "segment_distribution": [
+    [
+      "post_purchase_friction",
+      131,
+      "Post-purchase friction"
+    ],
+    [
+      "deal_hunter",
+      85,
+      "Deal hunters"
+    ],
+    [
+      "fit_anxious",
+      47,
+      "Fit-anxious shoppers"
+    ],
+    [
+      "passive_saver",
+      41,
+      "Passive savers"
+    ],
+    [
+      "heavy_wishlister",
+      40,
+      "Heavy wishlisters"
+    ],
+    [
+      "app_experience",
+      12,
+      "App experience issues"
+    ],
+    [
+      "occasion_shopper",
+      11,
+      "Occasion shoppers"
+    ]
+  ],
+  "wishlist_segment_distribution": [
+    [
+      "fit_anxious",
+      33,
+      "Fit-anxious shoppers"
+    ],
+    [
+      "heavy_wishlister",
+      32,
+      "Heavy wishlisters"
+    ],
+    [
+      "passive_saver",
+      25,
+      "Passive savers"
+    ],
+    [
+      "deal_hunter",
+      13,
+      "Deal hunters"
+    ],
+    [
+      "occasion_shopper",
+      10,
+      "Occasion shoppers"
+    ]
+  ],
+  "funnel_step_distribution": [
+    [
+      "none",
+      475
+    ],
+    [
+      "uncertainty",
+      41
+    ],
+    [
+      "revisit",
+      25
+    ],
+    [
+      "purchase",
+      18
+    ],
+    [
+      "add",
+      18
+    ],
+    [
+      "pdp",
+      3
+    ],
+    [
+      "cart",
+      3
+    ]
+  ],
+  "segment_x_blocker": {
+    "fit_anxious": {
+      "size_fit": 27,
+      "price_wait": 1,
+      "quality_doubt": 2,
+      "decision_overload": 1
+    },
+    "deal_hunter": {
+      "price_wait": 11,
+      "oos": 2
+    },
+    "passive_saver": {
+      "delivery_returns": 5,
+      "app_ux": 1,
+      "quality_doubt": 4
+    },
+    "heavy_wishlister": {
+      "delivery_returns": 4,
+      "size_fit": 1,
+      "forgot": 1,
+      "decision_overload": 12,
+      "app_ux": 8,
+      "quality_doubt": 3
+    },
+    "occasion_shopper": {
+      "decision_overload": 3,
+      "occasion_mismatch": 2,
+      "quality_doubt": 1,
+      "forgot": 1,
+      "oos": 1
+    }
+  },
+  "top_quotes": [
+    {
+      "source": "forum",
+      "theme": "gift_size_confidence",
+      "signal_type": "silent",
+      "blocker": "size_fit",
+      "segment": "fit_anxious",
+      "quote": "saved 5 kurtas on wishlist need confidence on size"
+    },
+    {
+      "source": "reddit",
+      "theme": "size_fit_mention",
+      "signal_type": "silent",
+      "blocker": "size_fit",
+      "segment": "fit_anxious",
+      "quote": "I save so many kurtas on Myntra wishlist but end up buying only one after checking YouTube try-ons for sizing. Hard to trust the size chart."
+    },
+    {
+      "source": "forum",
+      "theme": "price_wait_mention",
+      "signal_type": "silent",
+      "blocker": "price_wait",
+      "segment": "deal_hunter",
+      "quote": "I add shoes to wishlist and compare with AJIO prices outside the app before deciding."
+    },
+    {
+      "source": "social",
+      "theme": "price_wait_mention",
+      "signal_type": "silent",
+      "blocker": "price_wait",
+      "segment": "fit_anxious",
+      "quote": "YouTube try-on: comment section full of people saying they wishlisted on Myntra but waiting for sale."
+    },
+    {
+      "source": "reddit",
+      "theme": "group_voting_stall",
+      "signal_type": "silent",
+      "blocker": "decision_overload",
+      "segment": "occasion_shopper",
+      "quote": "wishlisted group chat voting for 2 weeks still no purchase"
+    },
+    {
+      "source": "forum",
+      "theme": "occasion_mismatch",
+      "signal_type": "silent",
+      "blocker": "occasion_mismatch",
+      "segment": "occasion_shopper",
+      "quote": "saved party dress but not sure if it's too casual for sangeet"
+    },
+    {
+      "source": "reddit",
+      "theme": "wishlist_share_usability",
+      "signal_type": "silent",
+      "blocker": "app_ux",
+      "segment": "heavy_wishlister",
+      "quote": "Is it just me or does Myntra wishlist share feature exist but nobody finds it?"
+    },
+    {
+      "source": "forum",
+      "theme": "duplicate_listings",
+      "signal_type": "silent",
+      "blocker": "decision_overload",
+      "segment": "heavy_wishlister",
+      "quote": "Duplicate listings for same kurta set confuse me when comparing wishlisted items on Myntra."
+    }
+  ],
+  "killer_insight_hypothesis": "Across **583** classified reviews, only **19.4%** (113) explicitly mention wishlist behaviour — yet **31** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (85 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **28** reviews reference external validation before buying saved items.",
+  "key_findings": [
+    "Only 19.4% of reviews explicitly mention wishlist — decision failure is mostly silent.",
+    "Top loud blocker: Delivery & returns (85 mentions)",
+    "Silent signals detected: 31 reviews imply decision gaps without asking for help.",
+    "External validation (YouTube/friends/Instagram): 28 mentions.",
+    "Among wishlist-tagged reviews, top blocker is Size & fit uncertainty (28 mentions)."
+  ]
+}

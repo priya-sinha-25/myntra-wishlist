@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "description": "Myntra wishlist growth discovery engine — 11-field classification taxonomy",
+  "fields": {
+    "wishlist_related": {
+      "type": "boolean",
+      "description": "Review/discussion mentions wishlist, save for later, shortlisted items, or save-to-buy behavior"
+    },
+    "funnel_step": {
+      "type": "enum",
+      "values": [
+        "add",
+        "revisit",
+        "pdp",
+        "uncertainty",
+        "cart",
+        "purchase",
+        "none"
+      ],
+      "description": "Which W2P-30 funnel step this feedback primarily relates to"
+    },
+    "save_reason": {
+      "type": "enum",
+      "values": [
+        "purchase_intent",
+        "passive_bookmark",
+        "compare",
+        "gift",
+        "wait_for_sale",
+        "unknown",
+        "not_applicable"
+      ]
+    },
+    "blocker_type": {
+      "type": "enum",
+      "values": [
+        "size_fit",
+        "price_wait",
+        "quality_doubt",
+        "occasion_mismatch",
+        "decision_overload",
+        "forgot",
+        "oos",
+        "delivery_returns",
+        "app_ux",
+        "none"
+      ]
+    },
+    "external_validation": {
+      "type": "enum",
+      "values": [
+        "youtube",
+        "friends",
+        "instagram",
+        "competitor",
+        "none"
+      ],
+      "description": "User sought validation outside Myntra before deciding"
+    },
+    "segment_signal": {
+      "type": "enum",
+      "values": [
+        "occasion_shopper",
+        "deal_hunter",
+        "fit_anxious",
+        "passive_saver",
+        "heavy_wishlister",
+        "unknown"
+      ]
+    },
+    "intent_strength": {
+      "type": "integer",
+      "min": 1,
+      "max": 5,
+      "description": "1=low purchase intent, 5=high purchase intent"
+    },
+    "addressable_without_discount": {
+      "type": "boolean",
+      "description": "Blocker could plausibly be solved without coupons/discounts"
+    },
+    "signal_type": {
+      "type": "enum",
+      "values": ["noise", "real", "silent"],
+      "description": "noise=unrelated; real=explicit complaint/request; silent=implies wishlist/decision failure without user asking for help"
+    },
+    "theme_label": {
+      "type": "string",
+      "description": "Short snake_case theme e.g. size_fit_uncertainty"
+    },
+    "evidence_quote": {
+      "type": "string",
+      "description": "Short verbatim excerpt supporting classification"
+    }
+  },
+  "silent_signal_themes": [
+    "wishlist_decision_gap",
+    "pre_purchase_confidence_gap",
+    "external_validation_habit",
+    "wishlist_graveyard",
+    "compare_paralysis"
+  ]
+}
