@@ -1,10 +1,9 @@
 {
-  "ran_at": "2026-08-26T07:27:15.303206+00:00",
-  "mode": "live_scrape",
-  "fetched": 5,
-  "classified": 5,
-  "corpus_total": 594,
-  "tagged_total": 583,
-  "source": "play_store",
-  "app_id": "com.myntra.android"
+  "ran_at": "2026-08-26T08:14:55.543598+00:00",
+  "mode": "daily_sync",
+  "seeds_added": 0,
+  "scraped": 100,
+  "corpus_total": 689,
+  "tagged_total": 689,
+  "classify_limit": null
 }

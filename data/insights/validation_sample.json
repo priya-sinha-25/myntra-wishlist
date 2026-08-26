@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-08-25T06:54:57.890259+00:00",
+  "generated_at": "2026-08-26T08:14:55.542460+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
+    {
+      "uid": "103b3d3587471f49",
+      "source": "play_store",
+      "text": "best app for online shopping for clothing and shoes",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_appreciation",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
     {
       "uid": "f10e50e8a520888b",
       "source": "play_store",
@@ -184,6 +204,26 @@
       }
     },
     {
+      "uid": "a1558ec0aa29fe18",
+      "source": "play_store",
+      "text": "I love this product! 😍 I’ve honestly never seen anything like it before. It’s seriously so useful! 🔥✨",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_love",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "e7281dab643c39a7",
       "source": "play_store",
       "text": "Ab Myntra par schem chal rahi ha ugc best scheme but you can improve it better too",
@@ -324,6 +364,26 @@
       }
     },
     {
+      "uid": "8cda80d463433970",
+      "source": "play_store",
+      "text": "I am a happy customer. Myntra is a shopping site for me, from where I can purchase any item with complete trust and without any doubt. Thank you \"Myntra\"🫰🏻☺️🥰",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "trust_and_satisfaction",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "a7b1a66a066c1a9d",
       "source": "play_store",
       "text": "Too many options. Wishlist becomes overwhelming and I buy nothing.",
@@ -384,6 +444,26 @@
       }
     },
     {
+      "uid": "600cc7e77f1044c4",
+      "source": "play_store",
+      "text": "One of the worst delivery app which I have used, they are unable to deliver the product on time and customer care service doesn't even have proper tracking information regarding the product, I have ordered the product with express delivery service and it has not delivered & it got cancelled automatically. If the application company can't provide proper delivery service their should not mention expected delivery date. where ppl can choose other applications instead.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_failure",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "844446901f68c513",
       "source": "play_store",
       "text": "great experience shopping with myntra,makes the shopping easy.",
@@ -433,6 +513,26 @@
         "signal_type": "real",
         "theme_label": "delivery_issues_wishlist",
         "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "9f81473e4dc6495f",
+      "source": "play_store",
+      "text": "i have been using this app and ordered products and the quality of the product is unbelievable and also in reasonable price",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality_and_price",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -684,115 +784,15 @@
       }
     },
     {
-      "uid": "8944e58ff0b33d2b",
+      "uid": "1fe638aba2eb8d81",
       "source": "play_store",
-      "text": "Boht hi bekar app h return ke nam pr kch ni hota isme jb kroge to 100 bahane bnaenge Boht bekar app h koi bhi install mt Krna",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "38f632fd266e2af5",
-      "source": "play_store",
-      "text": "Duplicate product listings confuse me when comparing wishlisted dupatta sets.",
-      "ai_labels": {
-        "wishlist_related": true,
-        "blocker_type": "quality_doubt",
-        "signal_type": "real",
-        "theme_label": "quality_doubt_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "8e1031c803d157df",
-      "source": "reddit",
-      "text": "M-Now delivery is fast but items I actually want from wishlist rarely eligible for quick delivery.",
-      "ai_labels": {
-        "wishlist_related": true,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "wishlist_delivery_speed",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "637c4164c4baa61e",
-      "source": "play_store",
-      "text": "This product is very good 👍👍👍",
+      "text": "I'm happy with myntra",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
         "signal_type": "real",
-        "theme_label": "product_quality",
+        "theme_label": "general_satisfaction",
         "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "90e29ad64f55711f",
-      "source": "play_store",
-      "text": "Best quality 👌 fast delivery and very comfortable material",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "quality_doubt",
-        "signal_type": "real",
-        "theme_label": "quality_doubt_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "e47b588f6eb7cb0f",
-      "source": "play_store",
-      "text": "excellent place to shop. awsome quality products, easy and express shipping, affordable and stylish. A complete family styling store. Love shopping from myntra",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "quality_doubt",
-        "signal_type": "real",
-        "theme_label": "quality_doubt_mention",
-        "segment_signal": "unknown"
       },
       "human_labels": {
         "wishlist_related": null,
