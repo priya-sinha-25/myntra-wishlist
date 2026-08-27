@@ -26,6 +26,27 @@ GROQ_MODEL_PRIMARY = os.getenv("GROQ_MODEL_PRIMARY", "openai/gpt-oss-120b")
 GROQ_MODEL_FALLBACK = os.getenv("GROQ_MODEL_FALLBACK", "openai/gpt-oss-20b")
 CLASSIFIER_HEURISTIC_FALLBACK = os.getenv("CLASSIFIER_HEURISTIC_FALLBACK", "1") == "1"
 
+
+def _apply_streamlit_secrets() -> None:
+    """Load Groq settings from Streamlit Cloud secrets when .env is absent."""
+    global GROQ_API_KEY, GROQ_MODEL_PRIMARY, GROQ_MODEL_FALLBACK, CLASSIFIER_HEURISTIC_FALLBACK
+    if GROQ_API_KEY:
+        return
+    try:
+        import streamlit as st
+
+        secrets = st.secrets
+        GROQ_API_KEY = secrets.get("GROQ_API_KEY", GROQ_API_KEY)
+        GROQ_MODEL_PRIMARY = secrets.get("GROQ_MODEL_PRIMARY", GROQ_MODEL_PRIMARY)
+        GROQ_MODEL_FALLBACK = secrets.get("GROQ_MODEL_FALLBACK", GROQ_MODEL_FALLBACK)
+        if "CLASSIFIER_HEURISTIC_FALLBACK" in secrets:
+            CLASSIFIER_HEURISTIC_FALLBACK = str(secrets["CLASSIFIER_HEURISTIC_FALLBACK"]) == "1"
+    except Exception:
+        return
+
+
+_apply_streamlit_secrets()
+
 BATCH_SIZE = int(os.getenv("CLASSIFY_BATCH_SIZE", "5"))
 MAX_RETRIES = 3
 
