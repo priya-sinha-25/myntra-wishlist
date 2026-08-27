@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:14:55.542460+00:00",
+  "generated_at": "2026-08-27T07:50:31.942061+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -153,6 +153,26 @@
         "signal_type": "real",
         "theme_label": "delivery_returns_mention",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "b967560876450f53",
+      "source": "play_store",
+      "text": "worst shopping app ever if you buy anything via Myntra cash and then if you return that they deduct the money for no reason like they'll take the whole payment amount and at the time of refund they deduct the money worst all fs",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "refund_deduction_issue",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -444,6 +464,26 @@
       }
     },
     {
+      "uid": "f71c9b7d0c1e5e00",
+      "source": "play_store",
+      "text": "very good product received",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "600cc7e77f1044c4",
       "source": "play_store",
       "text": "One of the worst delivery app which I have used, they are unable to deliver the product on time and customer care service doesn't even have proper tracking information regarding the product, I have ordered the product with express delivery service and it has not delivered & it got cancelled automatically. If the application company can't provide proper delivery service their should not mention expected delivery date. where ppl can choose other applications instead.",
@@ -453,6 +493,26 @@
         "signal_type": "real",
         "theme_label": "delivery_failure",
         "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "704d5832667052bc",
+      "source": "play_store",
+      "text": "good app and reasonable price 👍👍",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "app_experience",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -604,6 +664,26 @@
       }
     },
     {
+      "uid": "b8a05225fa6a7485",
+      "source": "play_store",
+      "text": "best app for buying needs.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "app_praise",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "3ba9a5b54c31e693",
       "source": "play_store",
       "text": "worst exchange process is so bad khud hi cancel ho jata h exchange wala process or exchange portal bhi bnd ho jata h jiske wajah ye log exchange hi nhi krtee had a very bad experience with customer care isse accha toh chota sa app meesho k exchange return policy better h aur help centre toh kissi kaam k nhi",
@@ -713,86 +793,6 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "1346951f9df9a975",
-      "source": "play_store",
-      "text": "Great deal on time delivery",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "25502abc66ae58a4",
-      "source": "play_store",
-      "text": "more collection I love it",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "4082b432d959e571",
-      "source": "play_store",
-      "text": "quility and fiting is good",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "size_fit",
-        "signal_type": "real",
-        "theme_label": "size_fit_mention",
-        "segment_signal": "fit_anxious"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "1fe638aba2eb8d81",
-      "source": "play_store",
-      "text": "I'm happy with myntra",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "general_satisfaction",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
