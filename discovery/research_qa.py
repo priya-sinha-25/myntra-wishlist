@@ -6,7 +6,8 @@ import re
 from typing import Any
 
 from discovery.aggregate import BLOCKER_LABELS, SEGMENT_LABELS, build_insights
-from discovery.config import GROQ_API_KEY, GROQ_MODEL_FALLBACK, GROQ_MODEL_PRIMARY
+import discovery.config as config
+from discovery.config import refresh_runtime_config
 
 STOPWORDS = {
     "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for", "of", "is",
@@ -162,7 +163,8 @@ def _parse_answer_json(content: str) -> dict[str, Any]:
 
 
 def _answer_with_groq(question: str, insights: dict[str, Any], evidence_rows: list[dict[str, Any]]) -> dict[str, Any]:
-    if not GROQ_API_KEY:
+    refresh_runtime_config()
+    if not config.GROQ_API_KEY:
         raise RuntimeError("GROQ_API_KEY is not set")
 
     from groq import Groq
@@ -200,8 +202,8 @@ EVIDENCE QUOTES:
 {_evidence_context(evidence_rows)}
 """
 
-    client = Groq(api_key=GROQ_API_KEY)
-    for model in (GROQ_MODEL_PRIMARY, GROQ_MODEL_FALLBACK):
+    client = Groq(api_key=config.GROQ_API_KEY)
+    for model in (config.GROQ_MODEL_PRIMARY, config.GROQ_MODEL_FALLBACK):
         try:
             response = client.chat.completions.create(
                 model=model,

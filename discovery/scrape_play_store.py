@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import time
 from typing import Any
 
 from discovery.config import MYNTRA_PLAY_STORE_ID, RAW_DIR
@@ -20,14 +21,25 @@ def fetch_play_store_reviews(app_id: str, count: int, lang: str = "en", country:
 
     while len(collected) < count:
         batch_size = min(200, count - len(collected))
-        batch, token = reviews(
-            app_id,
-            lang=lang,
-            country=country,
-            sort=Sort.NEWEST,
-            count=batch_size,
-            continuation_token=token,
-        )
+        batch = None
+        last_error: Exception | None = None
+        for attempt in range(3):
+            try:
+                batch, token = reviews(
+                    app_id,
+                    lang=lang,
+                    country=country,
+                    sort=Sort.NEWEST,
+                    count=batch_size,
+                    continuation_token=token,
+                )
+                last_error = None
+                break
+            except Exception as exc:  # noqa: BLE001
+                last_error = exc
+                time.sleep(2 * (attempt + 1))
+        if last_error is not None:
+            raise RuntimeError(f"Play Store scrape failed after retries: {last_error}") from last_error
         if not batch:
             break
         for review in batch:

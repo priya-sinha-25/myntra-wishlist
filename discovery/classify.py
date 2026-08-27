@@ -12,13 +12,11 @@ from typing import Any
 from discovery.config import (
     BATCH_SIZE,
     CLASSIFIED_DIR,
-    CLASSIFIER_HEURISTIC_FALLBACK,
-    GROQ_API_KEY,
-    GROQ_MODEL_FALLBACK,
-    GROQ_MODEL_PRIMARY,
     MAX_RETRIES,
     ROOT,
+    refresh_runtime_config,
 )
+import discovery.config as config
 from discovery.corpus import load_corpus
 
 TAXONOMY_PATH = ROOT / "discovery" / "schemas" / "taxonomy.json"
@@ -67,12 +65,13 @@ def extract_json(content: str) -> dict[str, Any]:
 
 
 def classify_with_groq(text: str, model: str) -> dict[str, Any]:
-    if not GROQ_API_KEY:
+    refresh_runtime_config()
+    if not config.GROQ_API_KEY:
         raise RuntimeError("GROQ_API_KEY is not set")
 
     from groq import Groq
 
-    client = Groq(api_key=GROQ_API_KEY)
+    client = Groq(api_key=config.GROQ_API_KEY)
     response = client.chat.completions.create(
         model=model,
         temperature=0,
@@ -128,14 +127,15 @@ def heuristic_classify(text: str) -> dict[str, Any]:
 
 
 def classify_text(text: str) -> dict[str, Any]:
-    if not GROQ_API_KEY:
-        if CLASSIFIER_HEURISTIC_FALLBACK:
+    refresh_runtime_config()
+    if not config.GROQ_API_KEY:
+        if config.CLASSIFIER_HEURISTIC_FALLBACK:
             return heuristic_classify(text)
         raise RuntimeError(
-            "GROQ_API_KEY is not set. Add it to .env before running the discovery engine."
+            "GROQ_API_KEY is not set. Add it to .env or Streamlit secrets before running the discovery engine."
         )
 
-    models = [GROQ_MODEL_PRIMARY, GROQ_MODEL_FALLBACK]
+    models = [config.GROQ_MODEL_PRIMARY, config.GROQ_MODEL_FALLBACK]
     last_error: Exception | None = None
 
     for model in models:
@@ -149,7 +149,7 @@ def classify_text(text: str) -> dict[str, Any]:
                 last_error = exc
                 time.sleep(1.5 * (attempt + 1))
 
-    if CLASSIFIER_HEURISTIC_FALLBACK:
+    if config.CLASSIFIER_HEURISTIC_FALLBACK:
         result = heuristic_classify(text)
         result["groq_error"] = str(last_error)[:240]
         return result

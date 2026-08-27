@@ -16,7 +16,8 @@ if str(ROOT) not in sys.path:
 
 from discovery.aggregate import BLOCKER_LABELS, SEGMENT_LABELS, build_insights
 from discovery.classify import classify_text
-from discovery.config import CLASSIFIED_DIR, CLASSIFIER_HEURISTIC_FALLBACK, GROQ_API_KEY, GROQ_MODEL_FALLBACK, GROQ_MODEL_PRIMARY, INSIGHTS_DIR
+import discovery.config as config
+from discovery.config import CLASSIFIED_DIR, INSIGHTS_DIR, refresh_runtime_config, subprocess_env
 from discovery.corpus import load_corpus
 from discovery.live_scrape import load_last_run, scrape_and_classify_live
 from discovery.research_qa import answer_research_question
@@ -120,6 +121,17 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 inject_myntra_branding()
+refresh_runtime_config()
+
+
+def run_pipeline_command(command: list[str]) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        command,
+        capture_output=True,
+        text=True,
+        cwd=str(ROOT),
+        env=subprocess_env(),
+    )
 
 
 @st.cache_data(ttl=30)
@@ -196,11 +208,11 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
 with tab1:
     st.subheader("Live Demo — scrape Play Store + classify in real time")
 
-    if not GROQ_API_KEY:
-        if CLASSIFIER_HEURISTIC_FALLBACK:
-            st.warning("GROQ_API_KEY missing — using keyword heuristic fallback (lower quality). Add a key to `.env` for LLM classification.")
+    if not config.GROQ_API_KEY:
+        if config.CLASSIFIER_HEURISTIC_FALLBACK:
+            st.warning("GROQ_API_KEY missing — using keyword heuristic fallback. Add a key to `.env` or Streamlit secrets.")
         else:
-            st.error("GROQ_API_KEY missing in `.env` — classification requires Groq.")
+            st.error("GROQ_API_KEY missing — add to `.env` or Streamlit Cloud secrets.")
 
     last_run = load_last_run()
     if last_run:
@@ -314,7 +326,7 @@ with tab2:
         logs = []
         for command in commands:
             logs.append(f"$ {' '.join(command)}")
-            proc = subprocess.run(command, capture_output=True, text=True, cwd=str(ROOT))
+            proc = run_pipeline_command(command)
             logs.append(proc.stdout or proc.stderr or "OK")
         st.session_state["pipeline_logs"] = "\n".join(logs)
         load_json.clear()
@@ -341,7 +353,7 @@ with tab2:
         progress = st.progress(0, text="Starting pipeline...")
         for i, command in enumerate(commands):
             logs.append(f"$ {' '.join(command)}")
-            proc = subprocess.run(command, capture_output=True, text=True, cwd=str(ROOT))
+            proc = run_pipeline_command(command)
             logs.append(proc.stdout)
             if proc.stderr:
                 logs.append(proc.stderr)
@@ -443,8 +455,8 @@ with tab4:
         "Answers are synthesized from aggregated insights + matching evidence quotes in the corpus."
     )
 
-    if not GROQ_API_KEY and not CLASSIFIER_HEURISTIC_FALLBACK:
-        st.error("Add GROQ_API_KEY to `.env` for full Q&A synthesis.")
+    if not config.GROQ_API_KEY and not config.CLASSIFIER_HEURISTIC_FALLBACK:
+        st.error("Add GROQ_API_KEY to Streamlit secrets or `.env` for full Q&A synthesis.")
 
     sample_questions = [
         "Why do users save items to wishlist but not buy within 30 days?",
@@ -543,9 +555,16 @@ with tab4:
 
 with tab5:
     st.subheader("Architecture")
-    groq_status = "✅ Configured" if GROQ_API_KEY else "❌ Missing — heuristic fallback" if CLASSIFIER_HEURISTIC_FALLBACK else "❌ Missing"
-    st.markdown(f"**Groq API:** {groq_status} · Key: `{mask_key(GROQ_API_KEY)}`")
-    st.markdown(f"**Models:** `{GROQ_MODEL_PRIMARY}` → `{GROQ_MODEL_FALLBACK}`")
+    refresh_runtime_config()
+    groq_status = (
+        "✅ Configured"
+        if config.GROQ_API_KEY
+        else "❌ Missing — heuristic fallback"
+        if config.CLASSIFIER_HEURISTIC_FALLBACK
+        else "❌ Missing"
+    )
+    st.markdown(f"**Groq API:** {groq_status} · Key: `{mask_key(config.GROQ_API_KEY)}`")
+    st.markdown(f"**Models:** `{config.GROQ_MODEL_PRIMARY}` → `{config.GROQ_MODEL_FALLBACK}`")
 
     st.markdown(
         """
@@ -577,7 +596,7 @@ Play Store / App Store / Reddit / Forums / Social
 - Closed-set taxonomy (11 fields) to reduce hallucination
 - `signal_type = silent` captures unvoiced wishlist/decision gaps
 - Segment labels inferred from blocker + wishlist context (no "unknown" in charts)
-- All classification powered by **Groq LLM** — requires `GROQ_API_KEY` in `.env` (free tier at console.groq.com)
+- All classification powered by **Groq LLM** — set `GROQ_API_KEY` in `.env` (local) or **Streamlit secrets** (cloud)
 - If Groq fails, keyword **heuristic fallback** runs automatically (`CLASSIFIER_HEURISTIC_FALLBACK=1`)
 - Resumable classification keyed by review UID
         """
