@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T07:50:31.942061+00:00",
+  "generated_at": "2026-08-27T15:34:34.660917+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -53,6 +53,26 @@
         "signal_type": "silent",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "453e2bb698526996",
+      "source": "play_store",
+      "text": "Fraud App/Web they Remove Negative Rating and Customer Reviews Feedbacks, help indirectly fraud Sellers..",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "review_manipulation",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -144,6 +164,26 @@
       }
     },
     {
+      "uid": "3472d4b45730eedc",
+      "source": "play_store",
+      "text": "v good quality and packing the product is in good way",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "product_quality",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "5e2a6f4b0b1e1e57",
       "source": "play_store",
       "text": "worst servicee ordered a product at 13 august estimated delivery date was 16th of August today is 22 aug no update yet and also no response from team",
@@ -172,6 +212,26 @@
         "blocker_type": "delivery_returns",
         "signal_type": "real",
         "theme_label": "refund_deduction_issue",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "62593c1ea3982ad1",
+      "source": "play_store",
+      "text": "Not able to reach customer service and no refund is processed after the product is cancelled by myntra useless app.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "refund_issue",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
@@ -624,6 +684,26 @@
       }
     },
     {
+      "uid": "549982f465e81d3a",
+      "source": "play_store",
+      "text": "My Experience With Myntra Is Very Nice On Time They Deliver Our Products And The Quality Is Also Super Quality & The Behaviour Of The Staff Is Also Very Polite Is Very Nice Aap I Just Love 💞 This Aap .",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_experience",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "8543a781fc962d92",
       "source": "forum",
       "text": "I add shoes to wishlist and compare with AJIO prices outside the app before deciding.",
@@ -633,6 +713,46 @@
         "signal_type": "silent",
         "theme_label": "price_wait_mention",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "c68536280df3038d",
+      "source": "play_store",
+      "text": "great product at reasonable prices",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "reasonable_price",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "65c89e196be89264",
+      "source": "play_store",
+      "text": "Never expect delivery on time. Even cancelled the order without proper reason. No notification The app is good but the delivery part is very poor.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_issues",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -673,126 +793,6 @@
         "signal_type": "real",
         "theme_label": "app_praise",
         "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "3ba9a5b54c31e693",
-      "source": "play_store",
-      "text": "worst exchange process is so bad khud hi cancel ho jata h exchange wala process or exchange portal bhi bnd ho jata h jiske wajah ye log exchange hi nhi krtee had a very bad experience with customer care isse accha toh chota sa app meesho k exchange return policy better h aur help centre toh kissi kaam k nhi",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "9da8706786237a38",
-      "source": "play_store",
-      "text": "best shopping app especially for branded clothes",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "eb4f9dbcdf05351d",
-      "source": "play_store",
-      "text": "very affordable,and many offers for users are there",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "price_wait",
-        "signal_type": "real",
-        "theme_label": "price_wait_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "d2e55aa4178133b6",
-      "source": "play_store",
-      "text": "The delivery is taking a very long time. The delivery person is not answering the call ,and they are not attending delivery again either.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "2bf02bd45942b4ec",
-      "source": "play_store",
-      "text": "very affordable shopping app",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "8352381783c759c3",
-      "source": "play_store",
-      "text": "very amazing app for all the users",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
       },
       "human_labels": {
         "wishlist_related": null,
