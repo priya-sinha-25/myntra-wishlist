@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T15:34:34.660917+00:00",
+  "generated_at": "2026-08-28T16:58:25.149860+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -233,6 +233,26 @@
         "signal_type": "real",
         "theme_label": "refund_issue",
         "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "21fc1816b2c1041a",
+      "source": "play_store",
+      "text": "absolutely right choice 👍👍",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_feedback",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -704,6 +724,26 @@
       }
     },
     {
+      "uid": "0b5579ea6a65d7a2",
+      "source": "play_store",
+      "text": "I ordered a set of two product and received only one, the one i received was Totally different from the picture shown I have paid full amount and now customer care is not picking up my phone",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "wrong_product_received",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "8543a781fc962d92",
       "source": "forum",
       "text": "I add shoes to wishlist and compare with AJIO prices outside the app before deciding.",
@@ -753,46 +793,6 @@
         "signal_type": "real",
         "theme_label": "delivery_issues",
         "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "4d8d2380ea3d770f",
-      "source": "play_store",
-      "text": "Good Platform for Originals with discount",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "price_wait",
-        "signal_type": "real",
-        "theme_label": "price_wait_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "b8a05225fa6a7485",
-      "source": "play_store",
-      "text": "best app for buying needs.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "app_praise",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
