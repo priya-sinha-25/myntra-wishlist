@@ -1,128 +1,8 @@
 {
-  "generated_at": "2026-08-28T16:58:25.149860+00:00",
+  "generated_at": "2026-08-29T11:25:50.253014+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
-    {
-      "uid": "103b3d3587471f49",
-      "source": "play_store",
-      "text": "best app for online shopping for clothing and shoes",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_appreciation",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "f10e50e8a520888b",
-      "source": "play_store",
-      "text": "worst app ever my order has been delayed by more than 10 days and when tried to contact the helpline many times but all agents are busy the help chat is aslo of no use then complaint in Myntra grievances still no delivery or refund for my items.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "ef69f765c010eb47",
-      "source": "play_store",
-      "text": "Compare feature missing on wishlist. I screenshot items and ask sister on WhatsApp which to buy.",
-      "ai_labels": {
-        "wishlist_related": true,
-        "blocker_type": "none",
-        "signal_type": "silent",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "453e2bb698526996",
-      "source": "play_store",
-      "text": "Fraud App/Web they Remove Negative Rating and Customer Reviews Feedbacks, help indirectly fraud Sellers..",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "review_manipulation",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "41562f3f1379bcd7",
-      "source": "play_store",
-      "text": "im order from this platform myntra mochi Shoes i have received old used pair return pickup not still myntra chitting openly with when customer care sarvice call there tomorrow morning fixing evening 14 day's playing with customers fored doing with customers please don't know what happened but very poor quality staff chatting with customers please don't buy in this application myntra",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "quality_doubt",
-        "signal_type": "real",
-        "theme_label": "quality_doubt_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "c83ef3d125169047",
-      "source": "play_store",
-      "text": "always orders are delayed... very bad delivery service...",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
     {
       "uid": "80e5f11e9933c895",
       "source": "play_store",
@@ -144,229 +24,9 @@
       }
     },
     {
-      "uid": "5ba8b2f4bedf3ebb",
+      "uid": "5382aff0e72d058c",
       "source": "play_store",
-      "text": "myntra has more unique and trendy fashion options then any other apps in my opinion, love it!",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "3472d4b45730eedc",
-      "source": "play_store",
-      "text": "v good quality and packing the product is in good way",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "product_quality",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "5e2a6f4b0b1e1e57",
-      "source": "play_store",
-      "text": "worst servicee ordered a product at 13 august estimated delivery date was 16th of August today is 22 aug no update yet and also no response from team",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "b967560876450f53",
-      "source": "play_store",
-      "text": "worst shopping app ever if you buy anything via Myntra cash and then if you return that they deduct the money for no reason like they'll take the whole payment amount and at the time of refund they deduct the money worst all fs",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "refund_deduction_issue",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "62593c1ea3982ad1",
-      "source": "play_store",
-      "text": "Not able to reach customer service and no refund is processed after the product is cancelled by myntra useless app.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "refund_issue",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "21fc1816b2c1041a",
-      "source": "play_store",
-      "text": "absolutely right choice 👍👍",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_feedback",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "8688a01308cb45c9",
-      "source": "play_store",
-      "text": "best quality of products and very fast delivery process 👍🏻",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "product_quality_and_delivery",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "972b86819f49c5da",
-      "source": "play_store",
-      "text": "good product love it",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "a1558ec0aa29fe18",
-      "source": "play_store",
-      "text": "I love this product! 😍 I’ve honestly never seen anything like it before. It’s seriously so useful! 🔥✨",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "product_love",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "e7281dab643c39a7",
-      "source": "play_store",
-      "text": "Ab Myntra par schem chal rahi ha ugc best scheme but you can improve it better too",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "1733166d2bc6790a",
-      "source": "play_store",
-      "text": "Product photos look great but customer images show different color. Wishlisted item still sitting there.",
-      "ai_labels": {
-        "wishlist_related": true,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "7ece83a5ed8e6053",
-      "source": "play_store",
-      "text": "Myntra insider points don't help if I can't decide which wishlisted sneaker fits wide feet.",
+      "text": "Would love AI summary of reviews for wishlisted products especially for fit on plus size bodies.",
       "ai_labels": {
         "wishlist_related": true,
         "blocker_type": "size_fit",
@@ -384,9 +44,209 @@
       }
     },
     {
-      "uid": "4c4b3a53db41d436",
+      "uid": "d29f7b3a2c4b7344",
       "source": "play_store",
-      "text": "The return process gets a little hectic at times, otherwise it's a nice app for quality shopping experience.",
+      "text": "very good rates and product",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "good_rates",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "834ad5d54f27a259",
+      "source": "reddit",
+      "text": "Flipkart wishlist has filters Myntra doesn't on web. I export screenshots to compare prices before buying saved Myntra items.",
+      "ai_labels": {
+        "wishlist_related": true,
+        "blocker_type": "price_wait",
+        "signal_type": "real",
+        "theme_label": "wishlist_price_comparison",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "abdcfb34063cf8e3",
+      "source": "play_store",
+      "text": "excellent service and product very very nice.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "unrelated",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "e486fcf849e9ea5e",
+      "source": "play_store",
+      "text": "such an affordable prices",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "price_wait",
+        "signal_type": "real",
+        "theme_label": "price_wait_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "554104f9eb5625ab",
+      "source": "play_store",
+      "text": "this is cheating app they are not responding for their customers and really feel bad of ur service fraud",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "unrelated",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "a631fba96ffc766e",
+      "source": "play_store",
+      "text": "always good service when I raise return item same time I got refund",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_returns_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "07eb097e25b246ad",
+      "source": "play_store",
+      "text": "good for fashion and 👗👕 quality is very good 👍 and price also good thank you myntra🫂🥰",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "good_quality_price",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "a9c3980a84462eda",
+      "source": "play_store",
+      "text": "experience of shop from myntra is very good",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "unrelated",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "686edc8d359379cc",
+      "source": "play_store",
+      "text": "one of the worst delivery apps i have every user",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_returns_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "01d397bbec9a4af4",
+      "source": "play_store",
+      "text": "The overall experience is unsatisfactory. Very poor customer service support team. Their representatives are always busy and the chat support ends abruptly always.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "unrelated",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "310cb0419e8a7765",
+      "source": "play_store",
+      "text": "The articles are so awesome,cool and good quality.",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "quality_doubt",
@@ -404,75 +264,15 @@
       }
     },
     {
-      "uid": "e6f873298582b165",
-      "source": "play_store",
-      "text": "delivery should be in between 11am-1pm it should not be late",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "91a4f9307438f172",
-      "source": "play_store",
-      "text": "bahut achcha app hai",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "c2a935e2d05ca4ae",
+      "uid": "5595583d62946cee",
       "source": "reddit",
-      "text": "I wishlist ethnic sets for every wedding invite then ask my sister on WhatsApp which lehenga looks best — still haven't ordered.",
+      "text": "Sneakerhead: wishlist conversion high for shoes because sizing consistent — clothes wishlist is graveyard.",
       "ai_labels": {
         "wishlist_related": true,
-        "blocker_type": "decision_overload",
-        "signal_type": "silent",
-        "theme_label": "wedding_wishlist",
-        "segment_signal": "occasion_shopper"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "8cda80d463433970",
-      "source": "play_store",
-      "text": "I am a happy customer. Myntra is a shopping site for me, from where I can purchase any item with complete trust and without any doubt. Thank you \"Myntra\"🫰🏻☺️🥰",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
+        "blocker_type": "size_fit",
         "signal_type": "real",
-        "theme_label": "trust_and_satisfaction",
-        "segment_signal": "passive_saver"
+        "theme_label": "sizing_consistency",
+        "segment_signal": "fit_anxious"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -484,73 +284,13 @@
       }
     },
     {
-      "uid": "a7b1a66a066c1a9d",
+      "uid": "a90fabf638a75ad0",
       "source": "play_store",
-      "text": "Too many options. Wishlist becomes overwhelming and I buy nothing.",
-      "ai_labels": {
-        "wishlist_related": true,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "3caeac5546ece34b",
-      "source": "play_store",
-      "text": "nice and best app for shopping",
+      "text": "very good nice product quality very nice",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
         "signal_type": "noise",
-        "theme_label": "app_appreciation",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "1c4547bd5336cfb3",
-      "source": "play_store",
-      "text": "A good store for all things",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "f71c9b7d0c1e5e00",
-      "source": "play_store",
-      "text": "very good product received",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
         "theme_label": "product_quality",
         "segment_signal": "passive_saver"
       },
@@ -564,49 +304,9 @@
       }
     },
     {
-      "uid": "600cc7e77f1044c4",
+      "uid": "e7b121c35e73077a",
       "source": "play_store",
-      "text": "One of the worst delivery app which I have used, they are unable to deliver the product on time and customer care service doesn't even have proper tracking information regarding the product, I have ordered the product with express delivery service and it has not delivered & it got cancelled automatically. If the application company can't provide proper delivery service their should not mention expected delivery date. where ppl can choose other applications instead.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_failure",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "704d5832667052bc",
-      "source": "play_store",
-      "text": "good app and reasonable price 👍👍",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "app_experience",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "844446901f68c513",
-      "source": "play_store",
-      "text": "great experience shopping with myntra,makes the shopping easy.",
+      "text": "trusted app for style and fashion.",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
@@ -624,14 +324,14 @@
       }
     },
     {
-      "uid": "6c10e7c585129ddf",
+      "uid": "286190a8869966e0",
       "source": "play_store",
-      "text": "Reliable and easy to use.. service is best.. easy to return and exchange...",
+      "text": "this is original cream thnk u myntra team",
       "ai_labels": {
         "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "unrelated",
         "segment_signal": "unknown"
       },
       "human_labels": {
@@ -644,35 +344,95 @@
       }
     },
     {
-      "uid": "eba0cbfc0385669e",
-      "source": "reddit",
-      "text": "Delivery was late twice — unrelated to wishlist UX but now I won't buy saved items even when price drops.",
+      "uid": "1976ade893d2fb87",
+      "source": "play_store",
+      "text": "It is a good service but size confusion in XL and XXL Roadstar brand.so i am exchange this item. Myntra gives well brand and good service as per my opinion.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "size_fit",
+        "signal_type": "real",
+        "theme_label": "size_confusion",
+        "segment_signal": "fit_anxious"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "993562ec3b40dcef",
+      "source": "play_store",
+      "text": "Best quality products",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "quality_doubt",
+        "signal_type": "real",
+        "theme_label": "quality_doubt_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "12141ba993c5ffc2",
+      "source": "play_store",
+      "text": "best product go for it👍",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_product_recommendation",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "98d26303b30f0608",
+      "source": "play_store",
+      "text": "good products n very fast delivery",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality_and_delivery",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "8f669189631abf10",
+      "source": "app_store",
+      "text": "Saved items pile up. Would buy more if app helped compare two wishlisted sarees for a wedding.",
       "ai_labels": {
         "wishlist_related": true,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_issues_wishlist",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "9f81473e4dc6495f",
-      "source": "play_store",
-      "text": "i have been using this app and ordered products and the quality of the product is unbelievable and also in reasonable price",
-      "ai_labels": {
-        "wishlist_related": false,
         "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "product_quality_and_price",
-        "segment_signal": "deal_hunter"
+        "signal_type": "silent",
+        "theme_label": "unrelated",
+        "segment_signal": "unknown"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -684,9 +444,9 @@
       }
     },
     {
-      "uid": "f8b8944a8d70f3c7",
+      "uid": "e006365e2ea9dadd",
       "source": "play_store",
-      "text": "Best app for shopping",
+      "text": "best shopping platform for every occasion.",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
@@ -704,9 +464,9 @@
       }
     },
     {
-      "uid": "549982f465e81d3a",
+      "uid": "89ebbfae76d0f25d",
       "source": "play_store",
-      "text": "My Experience With Myntra Is Very Nice On Time They Deliver Our Products And The Quality Is Also Super Quality & The Behaviour Of The Staff Is Also Very Polite Is Very Nice Aap I Just Love 💞 This Aap .",
+      "text": "I'm happy with Myntra products",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
@@ -724,14 +484,14 @@
       }
     },
     {
-      "uid": "0b5579ea6a65d7a2",
+      "uid": "fe8956e5567b9bd2",
       "source": "play_store",
-      "text": "I ordered a set of two product and received only one, the one i received was Totally different from the picture shown I have paid full amount and now customer care is not picking up my phone",
+      "text": "Shopping on Myntra is always easy and my experience on Myntra is great as always.",
       "ai_labels": {
         "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "wrong_product_received",
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "positive_experience",
         "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
@@ -744,13 +504,273 @@
       }
     },
     {
-      "uid": "8543a781fc962d92",
-      "source": "forum",
-      "text": "I add shoes to wishlist and compare with AJIO prices outside the app before deciding.",
+      "uid": "86712724858516fd",
+      "source": "play_store",
+      "text": "too good for shopping",
       "ai_labels": {
-        "wishlist_related": true,
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "unrelated",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "3c79a4b3a2e2fa7c",
+      "source": "play_store",
+      "text": "Myntra returns are too worst. Calling customer care will take 2,3 hrs to connect with agent",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_returns_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "44c34bc06233ec5d",
+      "source": "play_store",
+      "text": "product quality is really awesome 💯",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "7cb3c12cd84ff895",
+      "source": "play_store",
+      "text": "bakwass aap hai mut use karo...return lene koy ata nahi aur refund bhi nahi milega ..west of time app location..froud app hai play store please delete Thair licence. don't buy anythings...",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_returns_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "ad0ac8cf48243882",
+      "source": "play_store",
+      "text": "nice app and goo quality products is hear",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "app_quality_praise",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "df6dc4535dce3994",
+      "source": "play_store",
+      "text": "love this app.. purchase product with less money ❤️😋",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "unrelated",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "540729fe7387d116",
+      "source": "play_store",
+      "text": "disaster shopping experience . Terrible experience with frequent auto-cancellations. I placed my order expecting normal delivery, but the app automatically cancelled it without any valid reason or warning. It is incredibly frustrating to choose items, pay for them, and then have the system cancel the order unexpectedly.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "app_ux",
+        "signal_type": "real",
+        "theme_label": "order_auto_cancellation",
+        "segment_signal": "occasion_shopper"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "c6f48bf87fafd146",
+      "source": "play_store",
+      "text": "best shoping experience thank you myntra",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_experience",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "c75f10e98b69f64d",
+      "source": "play_store",
+      "text": "very good app everyone should use.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "app_positive",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "7ac2ad933adc14a2",
+      "source": "play_store",
+      "text": "very nice easy returns and exchange",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_returns_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "2211625e5474d350",
+      "source": "play_store",
+      "text": "love this app forever ♾️",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "app_love",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "8a32a60b6333ffe5",
+      "source": "play_store",
+      "text": "I ordered few items from Myntra but I am extremely happy with the products that I bought. i ordered it and got delivered on time Good products.. Amazing quality",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "quality_doubt",
+        "signal_type": "real",
+        "theme_label": "quality_doubt_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "7c72f47598c843a1",
+      "source": "play_store",
+      "text": "very good and helpfull 👍",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "positive_feedback",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "00c13afcb1b57854",
+      "source": "play_store",
+      "text": "Excellent Shopping Experience Good Offers 👍",
+      "ai_labels": {
+        "wishlist_related": false,
         "blocker_type": "price_wait",
-        "signal_type": "silent",
+        "signal_type": "real",
         "theme_label": "price_wait_mention",
         "segment_signal": "unknown"
       },
@@ -764,34 +784,14 @@
       }
     },
     {
-      "uid": "c68536280df3038d",
+      "uid": "6d75070086401a9e",
       "source": "play_store",
-      "text": "great product at reasonable prices",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "reasonable_price",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "65c89e196be89264",
-      "source": "play_store",
-      "text": "Never expect delivery on time. Even cancelled the order without proper reason. No notification The app is good but the delivery part is very poor.",
+      "text": "Multiple orders delayed repeatedly. Delivery dates are fake. Customer care calls are useless—agents take zero accountability and give no proper response. Extremely disappointed. Better to buy offline than waste time on this app!",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "delivery_returns",
         "signal_type": "real",
-        "theme_label": "delivery_issues",
+        "theme_label": "delivery_delay",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
