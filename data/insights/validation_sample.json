@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:25:50.253014+00:00",
+  "generated_at": "2026-08-30T10:13:47.149807+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -133,6 +133,26 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "6df226be9980862a",
+      "source": "play_store",
+      "text": "This app is really amazing and easy to use. The interface is simple, smooth, and user-friendly. Everything works properly without any major issues. I really like the features and overall experience. The app is useful, fast, and reliable. Definitely worth trying and highly recommended!",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "app_experience_positive",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -724,6 +744,26 @@
       }
     },
     {
+      "uid": "5cfe025c708a73ed",
+      "source": "play_store",
+      "text": "A useless app my order got delayed and they gave me a fake ai call which clearly can't understand clearly terrible experience at least ajio is better",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_delay",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "8a32a60b6333ffe5",
       "source": "play_store",
       "text": "I ordered few items from Myntra but I am extremely happy with the products that I bought. i ordered it and got delivered on time Good products.. Amazing quality",
@@ -753,46 +793,6 @@
         "signal_type": "noise",
         "theme_label": "positive_feedback",
         "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "00c13afcb1b57854",
-      "source": "play_store",
-      "text": "Excellent Shopping Experience Good Offers 👍",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "price_wait",
-        "signal_type": "real",
-        "theme_label": "price_wait_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "6d75070086401a9e",
-      "source": "play_store",
-      "text": "Multiple orders delayed repeatedly. Delivery dates are fake. Customer care calls are useless—agents take zero accountability and give no proper response. Extremely disappointed. Better to buy offline than waste time on this app!",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_delay",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,

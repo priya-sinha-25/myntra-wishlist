@@ -1,21 +1,21 @@
 # Myntra Discovery Insights
 
-Generated: 2026-08-29T11:25:50.240412+00:00
+Generated: 2026-08-30T10:13:47.135292+00:00
 
 ## Summary
-- Total items: **1038**
-- Wishlist-related: **114** (11.0%)
-- Silent signals: **31**
-- External validation mentions: **31**
-- Addressable without discount: **619** (59.6%)
+- Total items: **1138**
+- Wishlist-related: **114** (10.0%)
+- Silent signals: **32**
+- External validation mentions: **32**
+- Addressable without discount: **712** (62.6%)
 
 ## Blocker ranking (full corpus)
-- Delivery & returns: 185
-- Quality doubt: 84
-- Price / sale timing: 73
-- App UX issues: 46
+- Delivery & returns: 208
+- Quality doubt: 85
+- Price / sale timing: 77
+- App UX issues: 54
 - Size & fit uncertainty: 41
-- Decision overload: 16
+- Decision overload: 17
 - Out of stock: 3
 - Forgot / recall failure: 2
 - Occasion mismatch: 2
@@ -34,12 +34,12 @@ Generated: 2026-08-29T11:25:50.240412+00:00
 
 ## Segment distribution (inferred)
 
-- Deal hunters: 238
-- Passive savers: 216
+- Deal hunters: 269
+- Passive savers: 253
+- Heavy wishlisters: 141
 - Post-purchase friction: 131
-- Heavy wishlisters: 122
-- Fit-anxious shoppers: 66
-- Occasion shoppers: 30
+- Fit-anxious shoppers: 69
+- Occasion shoppers: 37
 - App experience issues: 12
 
 ## Top quotes
@@ -55,4 +55,4 @@ Generated: 2026-08-29T11:25:50.240412+00:00
 
 ## Killer insight
 
-Across **1038** classified reviews, only **11.0%** (114) explicitly mention wishlist behaviour — yet **31** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (185 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **31** reviews reference external validation before buying saved items.
+Across **1138** classified reviews, only **10.0%** (114) explicitly mention wishlist behaviour — yet **32** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (208 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **32** reviews reference external validation before buying saved items.
