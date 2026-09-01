@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-08-31T11:11:55.545109+00:00",
+  "generated_at": "2026-09-01T09:42:24.463755+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
+    {
+      "uid": "abbb2f35594d5eaa",
+      "source": "play_store",
+      "text": "super duper Application",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "generic_feedback",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
     {
       "uid": "80e5f11e9933c895",
       "source": "play_store",
@@ -424,6 +444,26 @@
       }
     },
     {
+      "uid": "8016ba34bfd972af",
+      "source": "play_store",
+      "text": "bahut high price Hai install Karo bekar hai",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "price_wait",
+        "signal_type": "real",
+        "theme_label": "high_price",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "1976ade893d2fb87",
       "source": "play_store",
       "text": "It is a good service but size confusion in XL and XXL Roadstar brand.so i am exchange this item. Myntra gives well brand and good service as per my opinion.",
@@ -753,46 +793,6 @@
         "signal_type": "real",
         "theme_label": "positive_experience",
         "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "e9a1de440bce492b",
-      "source": "play_store",
-      "text": "to good product i love myntra 😘🎉",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_brand_sentiment",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "c75f10e98b69f64d",
-      "source": "play_store",
-      "text": "very good app everyone should use.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "app_positive",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
