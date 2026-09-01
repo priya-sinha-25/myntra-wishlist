@@ -107,7 +107,7 @@ def inject_myntra_branding() -> None:
                 <div class="myntra-badge">Growth Team · W2P-30</div>
             </div>
             <div class="myntra-title">Wishlist Discovery Engine</div>
-            <p class="myntra-caption">AI-powered review intelligence for wishlist conversion research</p>
+            <p class="myntra-caption">AI discovery engine · W2P-30 research · MVP: <code>streamlit run mvp/app.py</code></p>
         </div>
         """,
         unsafe_allow_html=True,
@@ -202,7 +202,14 @@ def research_rows(items: list[dict]) -> pd.DataFrame:
     )
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-    ["Live Demo", "Pipeline Run", "Pipeline Insights", "Ask Research", "Architecture", "My Research"]
+    [
+        "Live Demo",
+        "Pipeline Run",
+        "Pipeline Insights",
+        "Ask Research",
+        "Architecture",
+        "My Research",
+    ]
 )
 
 with tab1:
@@ -586,6 +593,8 @@ Play Store / App Store / Reddit / Forums / Social
    research_qa.py → grounded evaluator Q&A (Tab: Ask Research)
         ↓
    Streamlit demo (this app)
+        ↓
+   mvp/app.py — Standalone Wishlist Confidence Brief MVP
 ```
 
 **Live scraping**
@@ -671,3 +680,4 @@ with tab6:
             st.markdown(
                 f"- **{quote['source']}** ({BLOCKER_LABELS.get(blocker, blocker)}): _\"{quote['quote'][:160]}\"_"
             )
+

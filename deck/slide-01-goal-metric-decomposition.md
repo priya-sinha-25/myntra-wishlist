@@ -299,4 +299,4 @@ For the business metric to move meaningfully:
 
 ---
 
-*Document status: Workstream 1 complete · Next step: Workstream 2 — AI Discovery Engine*
+*Document status: Part 1 (Slide 1) complete · See `slide-02-discovery-informed-decomposition.md` for Part 2 synthesis*

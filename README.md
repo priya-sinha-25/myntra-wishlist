@@ -7,11 +7,38 @@ Growth team project to improve **W2P-30** — the % of users who purchase at lea
 | # | Workstream | Status |
 |---|------------|--------|
 | 1 | Goal & metric decomposition | ✅ `deck/slide-01-goal-metric-decomposition.md` |
-| 2 | AI Discovery Engine | 🚧 `discovery/` |
-| 3 | Insight synthesis | Pending |
-| 4 | User research (5–6 interviews) | Pending |
-| 5 | Problem framing | Pending |
-| 6 | MVP | Pending |
+| 3 | Primary research (survey n=18) | ✅ `research/survey-findings.md` |
+| 4 | Problem framing | ✅ `deck/slide-04-problem-definition.md` |
+| 5 | MVP — Confidence Brief | ✅ **Standalone Myntra app** (`mvp/app.py`) |
+| 6 | Metrics & risks | Pending deck slides |
+
+## Wishlist Confidence Brief MVP (Part 5 — Live)
+
+Standalone **Myntra.com-style** prototype matching the Stitch screens — not inside the Discovery Engine.
+
+```powershell
+.\.venv\Scripts\python.exe -m streamlit run mvp/app.py
+```
+
+**Flow (matches Stitch prototype):**
+1. **Home** — Shop by Category (click **Open Wishlist**)
+2. **Wishlist** — 4 product cards with Brief Ready / locked states
+3. **Get Confidence Brief** — Groq AI modal (size M circle, key insights)
+4. **Add to Bag** — success toast + bag badge + “In Bag” on card
+5. **Libas (locked)** — progress bar modal (5/7 days)
+
+**Eligibility:** `brief_ready` on catalog items; Libas locked until 7 days.
+
+**Code:**
+- `mvp/app.py` — screen router (home → wishlist → brief → success)
+- `mvp/screens.py` — Stitch-matched HTML/CSS
+- `discovery/confidence_brief.py` — Groq brief generator
+- `data/mvp/wishlist_catalog.json` — demo products + Stitch image URLs
+- `stitch_prototype/` — exported Stitch HTML reference
+
+**Discovery engine** (separate): `streamlit run discovery/app.py`
+
+**Honesty:** Catalog is curated demo data. AI brief generation is **live Groq**. Cart/checkout simulated.
 
 ## Discovery Engine (Workstream 2)
 
@@ -74,8 +101,11 @@ discovery/
   aggregate.py           # Theme counts + crosstabs
   validate.py            # Human validation sample
   run_pipeline.py        # Orchestrator
-  app.py                 # Streamlit 5-tab demo
+  app.py                 # Streamlit demo (7 tabs incl. Wishlist MVP)
+  confidence_brief.py    # AI Confidence Brief generator
+  mvp_wishlist_ui.py     # Wishlist MVP UI
 data/
+  mvp/wishlist_catalog.json
   raw/corpus.json
   classified/tagged_reviews.json
   insights/insights.json
