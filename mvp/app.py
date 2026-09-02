@@ -20,11 +20,26 @@ from discovery.confidence_brief import (
     similar_wishlist_items,
 )
 from discovery.config import refresh_runtime_config
+from mvp.compare import INTENT_LABELS, compare_groups
 from mvp.spa import render_spa
+
+_ACTION_KEYS = (
+    "bag_add",
+    "bag_size",
+    "bag_label",
+    "bag_remove",
+    "screen",
+    "compare_group",
+    "set_intent",
+    "intent",
+    "dismiss_revisit",
+    "open_brief",
+    "share_brief",
+)
+VALID_INTENTS = set(INTENT_LABELS)
 
 SAMPLE_BRIEF_PATH = ROOT / "research" / "sample-confidence-brief.json"
 CATALOG_PATH = ROOT / "data" / "mvp" / "wishlist_catalog.json"
-_ACTION_KEYS = ("bag_add", "bag_size", "bag_label", "bag_remove", "screen")
 
 
 def _init_state() -> None:
@@ -33,6 +48,11 @@ def _init_state() -> None:
         "brief_cache": {},
         "bag_items": [],
         "bag_details": {},
+        "save_intents": {},
+        "dismiss_revisit": False,
+        "open_brief": "",
+        "compare_group": "",
+        "share_toast": False,
     }
     for key, value in defaults.items():
         if key not in st.session_state:
@@ -103,8 +123,18 @@ def _ensure_briefs(catalog: dict, user: dict, items: list[dict]) -> None:
     st.session_state["briefs_ready"] = True
 
 
+def _seed_save_intents(items: list[dict]) -> None:
+    intents = st.session_state.setdefault("save_intents", {})
+    for item in items:
+        item_id = item.get("id", "")
+        if item_id and item_id not in intents:
+            default = item.get("save_intent")
+            if default:
+                intents[item_id] = default
+
+
 def _apply_query_params(items: list[dict]) -> None:
-    """Sync bag + screen from iframe bridge query params."""
+    """Sync bag, screen, compare, intents, and nudges from query params."""
     qp = st.query_params
     if not any(key in qp for key in _ACTION_KEYS):
         return
@@ -131,9 +161,43 @@ def _apply_query_params(items: list[dict]) -> None:
         st.session_state["screen"] = "bag"
         changed = True
 
+    set_intent = qp.get("set_intent")
+    intent = qp.get("intent")
+    if set_intent and set_intent in valid_ids and intent in VALID_INTENTS:
+        st.session_state["save_intents"][set_intent] = intent
+        st.session_state["screen"] = "wishlist"
+        changed = True
+
+    if qp.get("dismiss_revisit") == "1":
+        st.session_state["dismiss_revisit"] = True
+        if st.session_state.get("screen") not in {"bag", "compare"}:
+            st.session_state["screen"] = "wishlist"
+        changed = True
+
+    compare_group = qp.get("compare_group")
+    if compare_group:
+        groups = compare_groups(items)
+        if compare_group in groups:
+            st.session_state["compare_group"] = compare_group
+            st.session_state["screen"] = "compare"
+            changed = True
+
+    open_brief = qp.get("open_brief")
+    if open_brief and open_brief in valid_ids:
+        st.session_state["open_brief"] = open_brief
+        st.session_state["screen"] = "wishlist"
+        changed = True
+
+    if qp.get("share_brief") == "1":
+        st.session_state["share_toast"] = True
+        if qp.get("screen") in {"home", "wishlist", "bag", "compare"}:
+            st.session_state["screen"] = qp.get("screen")
+        changed = True
+
     screen = qp.get("screen")
-    if screen in {"home", "wishlist", "bag"} and not bag_add and not bag_remove:
-        st.session_state["screen"] = screen
+    if screen in {"home", "wishlist", "bag", "compare"} and not bag_add and not bag_remove:
+        if not compare_group or st.session_state.get("screen") != "compare":
+            st.session_state["screen"] = screen
         changed = True
 
     for key in _ACTION_KEYS:
@@ -172,6 +236,7 @@ def main() -> None:
     user = _user_profile(catalog)
 
     _apply_query_params(items)
+    _seed_save_intents(items)
 
     catalog_mtime = CATALOG_PATH.stat().st_mtime if CATALOG_PATH.exists() else 0.0
     if st.session_state.get("catalog_mtime") != catalog_mtime:
@@ -193,7 +258,14 @@ def main() -> None:
         brief_cache=st.session_state["brief_cache"],
         user=user,
         initial_screen=st.session_state.get("screen", "home"),
+        save_intents=st.session_state.get("save_intents", {}),
+        dismiss_revisit=st.session_state.get("dismiss_revisit", False),
+        compare_group=st.session_state.get("compare_group", ""),
+        open_brief=st.session_state.get("open_brief", ""),
+        share_toast=st.session_state.get("share_toast", False),
     )
+    st.session_state["open_brief"] = ""
+    st.session_state["share_toast"] = False
 
     st.html(html_page, unsafe_allow_javascript=True)
 

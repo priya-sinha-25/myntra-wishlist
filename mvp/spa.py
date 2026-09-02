@@ -5,8 +5,10 @@ import base64
 import html
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlencode
+from urllib.parse import quote, urlencode
 
+
+from mvp.compare import INTENT_LABELS, compare_groups, render_compare_screen
 from mvp.styles import MYNTRA_STYLES
 
 _LOGO_PATH = Path(__file__).resolve().parent / "assets" / "myntra-logo.png"
@@ -101,7 +103,7 @@ def _bag_rows_html(
 
 def _nav_radios(initial_screen: str) -> str:
     radios = []
-    for name in ("home", "wishlist", "bag"):
+    for name in ("home", "wishlist", "bag", "compare"):
         checked = " checked" if initial_screen == name else ""
         radios.append(
             f'<input type="radio" name="mvp-screen" id="mvp-nav-{name}" '
@@ -162,7 +164,95 @@ def _header(*, bag_count: int = 0) -> str:
 """
 
 
-def _wishlist_card(item: dict[str, Any], *, in_bag: bool = False) -> str:
+def _intent_chip_row(item_id: str, current_intent: str) -> str:
+    label = INTENT_LABELS.get(current_intent, "Set intent")
+    options = []
+    for key, text in INTENT_LABELS.items():
+        active = " active" if key == current_intent else ""
+        href = _mvp_href(set_intent=item_id, intent=key, screen="wishlist")
+        options.append(f'<a href="{href}" class="intent-option{active}">{_esc(text)}</a>')
+    return f"""
+<div class="intent-row">
+  <span class="intent-chip">{_esc(label)}</span>
+  <details class="intent-picker">
+    <summary class="intent-edit">Edit</summary>
+    <div class="intent-menu">{"".join(options)}</div>
+  </details>
+</div>"""
+
+
+def _compare_cta(item: dict[str, Any], groups: dict[str, list[dict[str, Any]]]) -> str:
+    sub = str(item.get("subcategory") or "")
+    group = groups.get(sub, [])
+    if len(group) < 2 or not item.get("brief_ready"):
+        return ""
+    title = sub.replace("_", " ").title()
+    href = _mvp_href(screen="compare", compare_group=sub)
+    return (
+        f'<a href="{href}" class="compare-card-cta">'
+        f'<span class="material-symbols-outlined" style="font-size:16px;">compare_arrows</span>'
+        f" Compare {len(group)} {title} saves</a>"
+    )
+
+
+def _journey_strip() -> str:
+    return """
+<div class="conversion-journey">
+  <p class="journey-label">How this MVP lifts W2P-30</p>
+  <div class="journey-steps">
+    <div class="journey-step"><span class="material-symbols-outlined">favorite</span><strong>Save</strong><span>Build intent</span></div>
+    <span class="journey-arrow material-symbols-outlined">arrow_forward</span>
+    <div class="journey-step"><span class="material-symbols-outlined">auto_awesome</span><strong>Brief</strong><span>Fit confidence</span></div>
+    <span class="journey-arrow material-symbols-outlined">arrow_forward</span>
+    <div class="journey-step"><span class="material-symbols-outlined">compare_arrows</span><strong>Compare</strong><span>Pick winner</span></div>
+    <span class="journey-arrow material-symbols-outlined">arrow_forward</span>
+    <div class="journey-step"><span class="material-symbols-outlined">notifications</span><strong>Revisit</strong><span>Return nudge</span></div>
+    <span class="journey-arrow material-symbols-outlined">arrow_forward</span>
+    <div class="journey-step"><span class="material-symbols-outlined">shopping_bag</span><strong>Bag</strong><span>Purchase</span></div>
+  </div>
+</div>"""
+
+
+def _revisit_banner(ready_count: int, *, dismissed: bool) -> str:
+    if dismissed or ready_count < 1:
+        return ""
+    plural = "s are" if ready_count != 1 else " is"
+    dismiss_href = _mvp_href(dismiss_revisit="1", screen="wishlist")
+    wishlist_href = _screen_href("wishlist")
+    return f"""
+<div class="revisit-banner">
+  <div class="revisit-banner-body">
+    <span class="material-symbols-outlined revisit-icon">notifications_active</span>
+    <div>
+      <p class="revisit-title">{ready_count} Confidence Brief{plural} ready</p>
+      <p class="revisit-sub">Revisit your saves — compare similar items before prices shift.</p>
+    </div>
+  </div>
+  <div class="revisit-actions">
+    <a href="{wishlist_href}" class="revisit-cta">View briefs</a>
+    <a href="{dismiss_href}" class="revisit-dismiss" aria-label="Dismiss">Dismiss</a>
+  </div>
+</div>"""
+
+
+def _share_toast_html(*, visible: bool) -> str:
+    if not visible:
+        return ""
+    return """
+<div class="share-toast">
+  <span class="material-symbols-outlined" style="color:var(--tertiary-container);">share</span>
+  <p>Brief link ready — share with a friend for a second opinion (demo).</p>
+</div>"""
+
+
+def _wishlist_card(
+    item: dict[str, Any],
+    *,
+    in_bag: bool = False,
+    save_intent: str = "",
+    compare_groups_map: dict[str, list[dict[str, Any]]] | None = None,
+) -> str:
+    compare_groups_map = compare_groups_map or {}
     item_id = item.get("id", "")
     locked = not item.get("brief_ready", True)
 
@@ -231,13 +321,23 @@ def _wishlist_card(item: dict[str, Any], *, in_bag: bool = False) -> str:
       <span class="off">({item.get('discount_pct')}% OFF)</span>
     </div>
     <p class="saved">{_esc(item.get('saved_label'))}</p>
+    {_intent_chip_row(item_id, save_intent)}
     {brief_box}
+    {_compare_cta(item, compare_groups_map)}
     {cta}
   </div>
 </div>"""
 
 
-def _brief_modal_html(item: dict[str, Any], brief: dict[str, Any], user: dict[str, Any]) -> str:
+def _brief_modal_html(
+    item: dict[str, Any],
+    brief: dict[str, Any],
+    user: dict[str, Any],
+    *,
+    compare_peers: list[dict[str, Any]] | None = None,
+    brief_cache: dict[str, dict[str, Any]] | None = None,
+    open_checked: bool = False,
+) -> str:
     size = brief.get("recommended_size", "M")
     item_id = item.get("id", "")
     rationale = brief.get(
@@ -251,6 +351,11 @@ def _brief_modal_html(item: dict[str, Any], brief: dict[str, Any], user: dict[st
     )
     thumb = item.get("brief_image_url") or item.get("image_url")
     price = item.get("price_inr", 0)
+    badge = _esc(brief.get("confidence_badge") or "Good match")
+    occasion = _esc(user.get("occasion") or "Your saved occasion")
+    reviews = item.get("reviews") or []
+    quote_body = _esc(reviews[0].get("body", "")[:140] + ("…" if reviews and len(reviews[0].get("body", "")) > 140 else "")) if reviews else ""
+    quote_size = _esc(reviews[0].get("size_bought", size)) if reviews else size
     add_link = _bag_action_link(
         item_id=item_id,
         size=str(size),
@@ -258,8 +363,40 @@ def _brief_modal_html(item: dict[str, Any], brief: dict[str, Any], user: dict[st
         button_text=f"Add to Bag — Size {size}",
     )
 
+    compare_html = ""
+    compare_peers = compare_peers or []
+    brief_cache = brief_cache or {}
+    if len(compare_peers) >= 2:
+        sub = str(item.get("subcategory") or "items")
+        compare_href = _mvp_href(screen="compare", compare_group=sub)
+        peer_lines = []
+        for peer in compare_peers[:3]:
+            peer_id = peer.get("id", "")
+            peer_brief = brief_cache.get(peer_id, {})
+            peer_size = peer_brief.get("recommended_size", "—")
+            peer_lines.append(
+                f"<li>{_esc(peer.get('brand'))} · Size {peer_size} · "
+                f"{_esc(peer_brief.get('confidence_badge', '—'))}</li>"
+            )
+        compare_html = f"""
+<div class="brief-compare-snippet">
+  <h4>Compare with your saves</h4>
+  <ul>{"".join(peer_lines)}</ul>
+  <a href="{compare_href}" class="compare-inline-link">Open side-by-side compare →</a>
+</div>"""
+
+    share_text = (
+        f"Myntra Confidence Brief for {item.get('short_name') or item.get('brand')}: "
+        f"Size {size} ({brief.get('confidence_badge', 'Good match')}). "
+        f"Saved for {user.get('occasion', 'an occasion')}."
+    )
+    wa_href = f"https://wa.me/?text={quote(share_text)}"
+    share_href = _mvp_href(share_brief="1", screen="wishlist", open_brief=item_id)
+
+    checked = " checked" if open_checked else ""
+
     return f"""
-<input type="radio" name="mvp-modal" id="modal-brief-{_esc(item_id)}" class="modal-radio"/>
+<input type="radio" name="mvp-modal" id="modal-brief-{_esc(item_id)}" class="modal-radio"{checked}/>
 <div class="modal-backdrop">
   <label for="{MVP_MODAL_NONE}" class="modal-dismiss" tabindex="-1" aria-hidden="true"></label>
   <div class="brief-modal">
@@ -271,6 +408,10 @@ def _brief_modal_html(item: dict[str, Any], brief: dict[str, Any], user: dict[st
       <label for="{MVP_MODAL_NONE}" class="modal-close-btn" aria-label="Close">
         <span class="material-symbols-outlined" style="color:#5b4042;">close</span>
       </label>
+    </div>
+    <div class="brief-badge-row">
+      <span class="confidence-badge">{badge}</span>
+      <span class="occasion-pill">{occasion}</span>
     </div>
     <div class="product-row">
       {_img(thumb, alt=item.get("brand", ""), cls="product-thumb")}
@@ -294,14 +435,26 @@ def _brief_modal_html(item: dict[str, Any], brief: dict[str, Any], user: dict[st
       <h4>Key Insights</h4>
       {insights}
     </div>
+    {compare_html}
+    <div class="social-proof">
+      <h4>What buyers say</h4>
+      <blockquote>"{quote_body}"</blockquote>
+      <span class="social-meta">Verified buyer · Size {quote_size}</span>
+    </div>
     <div class="modal-footer">
+      <div class="share-row">
+        <a href="{wa_href}" class="share-btn" target="_blank" rel="noopener noreferrer">
+          <span class="material-symbols-outlined" style="font-size:16px;">share</span> WhatsApp
+        </a>
+        <a href="{share_href}" class="share-btn secondary">Copy demo link</a>
+      </div>
       <div class="modal-actions">
         <label for="{MVP_MODAL_NONE}" class="btn-outline">Still not sure</label>
         {add_link}
       </div>
       <div class="ai-footer">
         <span class="material-symbols-outlined" style="font-size:14px;vertical-align:middle;">smart_toy</span>
-        Powered by Myntra AI
+        Powered by Myntra AI · Brief + Compare + Revisit
       </div>
     </div>
   </div>
@@ -392,12 +545,22 @@ def render_spa(
     brief_cache: dict[str, dict[str, Any]],
     user: dict[str, Any],
     initial_screen: str = "home",
+    save_intents: dict[str, str] | None = None,
+    dismiss_revisit: bool = False,
+    compare_group: str = "",
+    open_brief: str = "",
+    share_toast: bool = False,
 ) -> str:
     """Render full interactive SPA — header wishlist + all CTAs work in-page."""
     bag_details = bag_details or {}
+    save_intents = save_intents or {}
+    groups = compare_groups(items)
     nav_radios = _nav_radios(initial_screen)
     bag_count = len(bag_items)
     bag_label = f"({bag_count} item{'s' if bag_count != 1 else ''})"
+    ready_count = sum(1 for i in items if i.get("brief_ready"))
+
+    modal_none_checked = "" if open_brief else " checked"
 
     category_tiles = []
     for cat in categories:
@@ -414,15 +577,37 @@ def render_spa(
         )
 
     wishlist_cards = [
-        _wishlist_card(item, in_bag=item.get("id") in bag_items)
+        _wishlist_card(
+            item,
+            in_bag=item.get("id") in bag_items,
+            save_intent=save_intents.get(item.get("id", ""), item.get("save_intent", "")),
+            compare_groups_map=groups,
+        )
         for item in items
     ]
+
+    compare_header_link = ""
+    if groups.get("kurta"):
+        compare_header_link = (
+            f'<a href="{_mvp_href(screen="compare", compare_group="kurta")}" class="filter-btn">'
+            f'<span class="material-symbols-outlined" style="font-size:18px;">compare_arrows</span> '
+            f"Compare kurtas ({len(groups['kurta'])})</a>"
+        )
 
     brief_modals = ""
     for item_id, brief in brief_cache.items():
         item = next((i for i in items if i.get("id") == item_id), None)
         if item and brief.get("eligible", True) is not False:
-            brief_modals += _brief_modal_html(item, brief, user)
+            sub = str(item.get("subcategory") or "")
+            peers = groups.get(sub, [])
+            brief_modals += _brief_modal_html(
+                item,
+                brief,
+                user,
+                compare_peers=peers,
+                brief_cache=brief_cache,
+                open_checked=(open_brief == item_id),
+            )
 
     ready_items = [i for i in items if i.get("brief_ready")]
     locked_modals = "".join(
@@ -437,15 +622,29 @@ def render_spa(
     bag_empty_style = ' style="display:none;"' if has_bag_items else ""
     bag_summary_style = "" if has_bag_items else ' style="display:none;"'
 
+    compare_screen_html = ""
+    active_group = compare_group if compare_group in groups else ""
+    if active_group:
+        compare_screen_html = render_compare_screen(
+            group_key=active_group,
+            items=groups[active_group],
+            brief_cache=brief_cache,
+            save_intents=save_intents,
+            bag_items=bag_items,
+            screen_href=_mvp_href,
+        )
+
     return f"""
 {MYNTRA_STYLES}
 <div class="myntra-mvp">
-<input type="radio" name="mvp-modal" id="{MVP_MODAL_NONE}" class="modal-radio" checked/>
+<input type="radio" name="mvp-modal" id="{MVP_MODAL_NONE}" class="modal-radio"{modal_none_checked}/>
 {nav_radios}
 {_header(bag_count=len(bag_items))}
+{_share_toast_html(visible=share_toast)}
 
 <div id="screen-home" class="screen">
   <main class="main">
+    {_journey_strip()}
     <h1 class="shop-title">Shop by Category</h1>
     <div class="category-grid">{''.join(category_tiles)}</div>
   </main>
@@ -453,9 +652,11 @@ def render_spa(
 
 <div id="screen-wishlist" class="screen">
   <main class="main">
+    {_revisit_banner(ready_count, dismissed=dismiss_revisit)}
     <div class="wishlist-header">
       <h1 style="font-size:28px;font-weight:700;margin:0;">Wishlist <span style="color:var(--text-muted);font-size:16px;font-weight:400;">({len(items)} items)</span></h1>
-      <div style="display:flex;gap:16px;">
+      <div style="display:flex;gap:16px;flex-wrap:wrap;">
+        {compare_header_link}
         <button type="button" class="filter-btn"><span class="material-symbols-outlined" style="font-size:18px;">filter_list</span> Filter</button>
         <button type="button" class="filter-btn"><span class="material-symbols-outlined" style="font-size:18px;">sort</span> Sort</button>
       </div>
@@ -463,6 +664,8 @@ def render_spa(
     <div class="wishlist-grid">{''.join(wishlist_cards)}</div>
   </main>
 </div>
+
+{compare_screen_html}
 
 <div id="screen-bag" class="screen">
   <main class="main bag-main">

@@ -378,6 +378,133 @@ MYNTRA_STYLES = """
 }
 label.toast-link { display: inline-block; }
 a.filter-btn { cursor: pointer; text-decoration: none; color: inherit; }
+#mvp-nav-compare:checked ~ #screen-compare { display: block; }
+.myntra-mvp .conversion-journey {
+  max-width: 1280px; margin: 24px auto 0; padding: 20px var(--margin-x);
+  background: white; border: 1px solid var(--border-light); border-radius: 8px;
+}
+.myntra-mvp .journey-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em;
+  color: var(--text-muted); margin: 0 0 12px; font-weight: 700;
+}
+.myntra-mvp .journey-steps {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.myntra-mvp .journey-step {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  font-size: 11px; color: #5b4042; min-width: 72px; text-align: center;
+}
+.myntra-mvp .journey-step .material-symbols-outlined { color: var(--primary); font-size: 22px; }
+.myntra-mvp .journey-step strong { font-size: 12px; color: var(--on-surface); }
+.myntra-mvp .journey-arrow { color: var(--text-muted); font-size: 18px; }
+.myntra-mvp .revisit-banner {
+  max-width: 1280px; margin: 24px auto 0; padding: 16px 20px;
+  background: linear-gradient(90deg, #fff9fb 0%, #ffffff 100%);
+  border: 1px solid rgba(255,63,108,0.25); border-radius: 8px;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+.myntra-mvp .revisit-banner-body { display: flex; gap: 12px; align-items: flex-start; }
+.myntra-mvp .revisit-icon { color: var(--primary); font-size: 28px; }
+.myntra-mvp .revisit-title { margin: 0; font-weight: 700; font-size: 15px; }
+.myntra-mvp .revisit-sub { margin: 4px 0 0; font-size: 13px; color: #5b4042; }
+.myntra-mvp .revisit-actions { display: flex; gap: 12px; align-items: center; }
+.myntra-mvp .revisit-cta {
+  background: var(--primary); color: white; padding: 8px 16px; border-radius: 4px;
+  font-size: 12px; font-weight: 700; text-transform: uppercase; text-decoration: none;
+}
+.myntra-mvp .revisit-dismiss { font-size: 12px; color: var(--text-muted); text-decoration: none; }
+.myntra-mvp .intent-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 4px;
+}
+.myntra-mvp .intent-chip {
+  font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+  background: var(--surface-container-low); color: #5b4042; padding: 4px 8px; border-radius: 999px;
+}
+.myntra-mvp .intent-picker { position: relative; }
+.myntra-mvp .intent-edit {
+  font-size: 10px; color: var(--primary); cursor: pointer; list-style: none; font-weight: 700;
+}
+.myntra-mvp .intent-menu {
+  position: absolute; right: 0; top: 100%; z-index: 20; background: white;
+  border: 1px solid var(--border-light); border-radius: 4px; min-width: 160px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12); display: flex; flex-direction: column;
+}
+.myntra-mvp .intent-option {
+  padding: 8px 12px; font-size: 12px; color: var(--on-surface); text-decoration: none;
+}
+.myntra-mvp .intent-option:hover, .myntra-mvp .intent-option.active { background: var(--confidence-tint); color: var(--primary); }
+.myntra-mvp .compare-card-cta {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  margin-top: 8px; font-size: 11px; font-weight: 700; text-transform: uppercase;
+  color: var(--primary); text-decoration: none;
+}
+.myntra-mvp .compare-card-cta:hover { text-decoration: underline; }
+.myntra-mvp .brief-badge-row {
+  display: flex; gap: 8px; padding: 0 24px 12px; flex-wrap: wrap;
+}
+.myntra-mvp .confidence-badge {
+  background: var(--tertiary-container); color: white; font-size: 11px; font-weight: 700;
+  padding: 4px 10px; border-radius: 999px; text-transform: uppercase;
+}
+.myntra-mvp .occasion-pill {
+  background: white; border: 1px solid var(--border-light); font-size: 11px;
+  padding: 4px 10px; border-radius: 999px; color: #5b4042;
+}
+.myntra-mvp .brief-compare-snippet {
+  padding: 12px 24px; background: rgba(255,255,255,0.5); border-top: 1px solid var(--surface-variant);
+}
+.myntra-mvp .brief-compare-snippet h4 {
+  font-size: 12px; text-transform: uppercase; color: #5b4042; margin: 0 0 8px;
+}
+.myntra-mvp .brief-compare-snippet ul { margin: 0 0 8px; padding-left: 18px; font-size: 13px; }
+.myntra-mvp .compare-inline-link { font-size: 12px; font-weight: 700; color: var(--primary); text-decoration: none; }
+.myntra-mvp .social-proof {
+  padding: 12px 24px; background: rgba(255,255,255,0.35); border-top: 1px solid var(--surface-variant);
+}
+.myntra-mvp .social-proof h4 { font-size: 12px; text-transform: uppercase; color: #5b4042; margin: 0 0 8px; }
+.myntra-mvp .social-proof blockquote {
+  margin: 0; font-size: 13px; font-style: italic; line-height: 1.5; color: #5b4042;
+}
+.myntra-mvp .social-meta { font-size: 10px; color: var(--text-muted); display: block; margin-top: 6px; }
+.myntra-mvp .share-row { display: flex; gap: 8px; margin-bottom: 4px; }
+.myntra-mvp .share-btn {
+  flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px;
+  padding: 10px; border-radius: 4px; font-size: 11px; font-weight: 700; text-transform: uppercase;
+  text-decoration: none; background: #25D366; color: white;
+}
+.myntra-mvp .share-btn.secondary { background: var(--surface-container-low); color: var(--on-surface); }
+.myntra-mvp .share-toast {
+  position: fixed; top: 96px; left: 50%; transform: translateX(-50%); z-index: 320;
+  background: white; border: 1px solid var(--border-light); box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  border-radius: 8px; padding: 12px 20px; display: flex; align-items: center; gap: 12px;
+  max-width: 480px;
+}
+.myntra-mvp .share-toast p { margin: 0; font-size: 13px; }
+.myntra-mvp .compare-main { max-width: 1280px; margin: 0 auto; }
+.myntra-mvp .compare-subtitle { padding: 0 var(--margin-x); color: #5b4042; font-size: 14px; }
+.myntra-mvp .compare-rec-box {
+  margin: 16px var(--margin-x); padding: 16px; background: var(--confidence-tint);
+  border-radius: 8px; display: flex; gap: 12px; align-items: flex-start;
+}
+.myntra-mvp .compare-rec-box p { margin: 0; font-size: 14px; line-height: 1.5; }
+.myntra-mvp .compare-table { padding: 16px var(--margin-x) 32px; display: flex; flex-direction: column; gap: 16px; }
+.myntra-mvp .compare-row {
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 2fr auto; gap: 16px; align-items: center;
+  background: white; border: 1px solid var(--border-light); border-radius: 8px; padding: 16px;
+}
+.myntra-mvp .compare-row.winner { border-color: var(--primary); box-shadow: 0 0 0 1px rgba(255,63,108,0.2); }
+.myntra-mvp .compare-product { display: flex; gap: 12px; align-items: center; }
+.myntra-mvp .compare-product img { width: 56px; height: 70px; object-fit: cover; border-radius: 4px; }
+.myntra-mvp .compare-product h3 { margin: 0; font-size: 14px; }
+.myntra-mvp .compare-product p { margin: 4px 0 0; font-size: 12px; color: #5b4042; }
+.myntra-mvp .compare-metric span { display: block; font-size: 10px; color: var(--text-muted); text-transform: uppercase; }
+.myntra-mvp .compare-metric strong { font-size: 13px; }
+.myntra-mvp .compare-snippet { font-size: 12px; color: #5b4042; font-style: italic; }
+.myntra-mvp .compare-actions { display: flex; flex-direction: column; gap: 8px; align-items: stretch; }
+.myntra-mvp .compare-link { font-size: 11px; font-weight: 700; color: var(--primary); text-decoration: none; text-align: center; }
+.myntra-mvp .compare-add { font-size: 11px; padding: 8px; }
+.myntra-mvp .compare-in-bag { font-size: 11px; font-weight: 700; color: var(--tertiary); text-align: center; }
+.myntra-mvp .compare-demo-note { font-size: 10px; color: var(--text-muted); text-align: center; padding: 0 var(--margin-x) 32px; }
 .myntra-mvp .material-symbols-outlined,
 .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';

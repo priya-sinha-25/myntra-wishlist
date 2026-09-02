@@ -38,6 +38,7 @@
       "review_count": 847,
       "avg_rating": 4.1,
       "brief_ready": true,
+      "save_intent": "occasion",
       "brief_subtitle": "Authenticity & Fit verified",
       "sizes_available": ["XS", "S", "M", "L", "XL", "XXL"],
       "reviews": [
@@ -66,6 +67,7 @@
       "review_count": 1200,
       "avg_rating": 4.3,
       "brief_ready": true,
+      "save_intent": "compare",
       "brief_subtitle": "Material breakdown available",
       "sizes_available": ["S", "M", "L", "XL"],
       "reviews": [
@@ -91,6 +93,7 @@
       "review_count": 1203,
       "avg_rating": 4.3,
       "brief_ready": false,
+      "save_intent": "compare",
       "locked_type": "save_streak",
       "locked_days_progress": 5,
       "locked_days_total": 7,
@@ -119,6 +122,7 @@
       "review_count": 542,
       "avg_rating": 4.2,
       "brief_ready": true,
+      "save_intent": "buy_soon",
       "brief_subtitle": "Occasion fit verified",
       "sizes_available": ["XS", "S", "M", "L"],
       "reviews": [
@@ -140,6 +144,7 @@
       "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuBA03117nKQIDrbA9PbK52_Qv9NEjz01IYUXQCXAj7ElxDqmSwAv1f4yLCg9I9duPxpoRJyNpygjW9LqooH2BR7qWdS1vnw6vn4T6mSiGYccGMABOu-NPcpoMd1j0TBK1tBvfR-67XwB8KxKhAMdYDk_UEg5MeXX8r8HbQlohx72DSiJ-3OHv7GzKmqdmeaSfhg8uyURFjytvjdKWN8z5I_VX56RdYnMz6Z55Y9E9r2o72EJrXMHR7GOw",
       "avg_rating": 4.0,
       "brief_ready": false,
+      "save_intent": "occasion",
       "locked_type": "save_streak",
       "locked_days_progress": 3,
       "locked_days_total": 7,
@@ -168,6 +173,7 @@
       "review_count": 4500,
       "avg_rating": 4.4,
       "brief_ready": true,
+      "save_intent": "buy_soon",
       "brief_subtitle": "Size chart + review fit",
       "sizes_available": ["6", "7", "8", "9", "10"],
       "reviews": [
@@ -189,6 +195,7 @@
       "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuB6bGdRMVt1_sE26gUxMhSdiErcICP9csr4iwVXe7Sy-zv-37F-m10ydm-_Yj2wMWXbG_0r95-EO-i1rojd4RQmfLs_E98hRgfU-HudOkgZvMD9Mg1YbEycWLtxAEWw15AGoL-WQbNiUQXOLalWo40s65oDxngByAjedT1hEzjicQMObj85ruTup0vXlBniCbiYldBhQKF8EJhWgViHlh-Gvvp36ST8vrPo1X0VRV4QgS02opsbgCSHhw",
       "avg_rating": 4.1,
       "brief_ready": false,
+      "save_intent": "moodboard",
       "locked_type": "similar_items",
       "locked_similar_progress": 1,
       "locked_similar_total": 2,
@@ -214,6 +221,7 @@
       "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCr1xjmTuJbMlDDt9UwlYyI9VfFBP05GoDiCQCrnt9D9iH6f160EkcTN5xPbGQJwrXFHPVUxuRgbtY-7lEcwhA5f0T5Z5X4NDPIo2lfJ6QEQmpAJU-1wKmbswhaEWyXhm_LF1hu2HZqOkIiDMvGaoQzEnKIh9_rms8eJHO67cQ8P3zHdMk8yCWidNHyt-srXnTFYu-35AFFjDPcW_MG3E5n4OeiMzs0tgsykE8E0jGQwLVbWFLcZSz9dA",
       "avg_rating": 4.0,
       "brief_ready": true,
+      "save_intent": "wait_sale",
       "brief_subtitle": "Shoulder fit analyzed",
       "sizes_available": ["S", "M", "L", "XL"],
       "reviews": [
@@ -234,6 +242,7 @@
       "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuD5SJisw85SrngFwG7W2GT-fD_QMn-Epjg0Z3PLzfMiEmq3wZVYGycXqnJ3Lds7zZSYFnQrs4NoakshIvwqvBUmo7xRmHoXLIHzAXj5RUKimxDHT3_53E_IxSWgcTCnWt_tyQO7kVG3cL1Si_i3tBPwY5YhI7hPbK5C64JcPO8vG73ORc_L_dWSwP10WZI8TLmsxzqm1HX9YPmdWhicEuAxAA3uPgiS5IiGiQ5-HEcJlY08sRCXPYHtQA",
       "avg_rating": 4.5,
       "brief_ready": true,
+      "save_intent": "occasion",
       "brief_subtitle": "Drape & occasion match",
       "sizes_available": ["Free Size"],
       "reviews": [
@@ -254,6 +263,7 @@
       "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuACj4DZX05TSTsmhmTRHx0KQ55fhsYuUQN4aAagVMcxidB-YNWpUEMY49J7rmm4cBXlongqOycNLT_evbmpfl5_DPxn--1rCPRs2QUqSsgj5i4xuaCon1vwzXMQtqZpw4pj8ICaUpVY9CAq-Tkg2Mx4OBXAGlrJsoVY-Z3YYqIJFHSoWEtJvwhD-QR7z8-ncYR3EG-_QzBQbhpb9tAHfjAuNcVev2LHlWPUBEqCIV3RDcRZzI9m9ZVCvg",
       "avg_rating": 4.2,
       "brief_ready": false,
+      "save_intent": "buy_soon",
       "locked_type": "save_streak",
       "locked_days_progress": 4,
       "locked_days_total": 7,
@@ -279,6 +289,7 @@
       "image_url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCiUzQ-vpTJj0pPoo8I6XIb3tl6pjKBsnQQ5_YxHg79Ns-zrUDhooD-mc7ck000LqPDxrCrIcEPvMrh0BSQxN_CTlaf8RXsvGO-0aSlOHFqVUPtgFhxiO9VdgUAZroe3WwrZjseLUZ1KeSTnYAe13e6ZBKLSVesoS9ijK6469yyc-t4ogc-nAV-FpQda8_jfFq-AqAuYzw2977YEJoo4aYef0ru_iLHds-QT4AtIqfXy4_Avl0k_xoz5w",
       "avg_rating": 4.3,
       "brief_ready": true,
+      "save_intent": "moodboard",
       "brief_subtitle": "Style pairing tips ready",
       "sizes_available": ["One Size"],
       "reviews": [
