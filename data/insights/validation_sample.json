@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:42:24.463755+00:00",
+  "generated_at": "2026-09-02T09:05:52.227511+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -153,6 +153,26 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "e63d8c9fc5fb1de7",
+      "source": "play_store",
+      "text": "very affordable and lots of offers",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "price_affordability",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -604,6 +624,26 @@
       }
     },
     {
+      "uid": "ef2f04827b81a499",
+      "source": "play_store",
+      "text": "this app is very good",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "app_positive",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "89ebbfae76d0f25d",
       "source": "play_store",
       "text": "I'm happy with Myntra products",
@@ -753,46 +793,6 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "540729fe7387d116",
-      "source": "play_store",
-      "text": "disaster shopping experience . Terrible experience with frequent auto-cancellations. I placed my order expecting normal delivery, but the app automatically cancelled it without any valid reason or warning. It is incredibly frustrating to choose items, pay for them, and then have the system cancel the order unexpectedly.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "app_ux",
-        "signal_type": "real",
-        "theme_label": "order_auto_cancellation",
-        "segment_signal": "occasion_shopper"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "c6f48bf87fafd146",
-      "source": "play_store",
-      "text": "best shoping experience thank you myntra",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_experience",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
