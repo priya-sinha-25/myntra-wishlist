@@ -32,8 +32,12 @@ def _apply_streamlit_secrets() -> None:
     global GROQ_API_KEY, GROQ_MODEL_PRIMARY, GROQ_MODEL_FALLBACK, CLASSIFIER_HEURISTIC_FALLBACK
     try:
         import streamlit as st
+        from streamlit.errors import StreamlitSecretNotFoundError
 
-        secrets = st.secrets
+        try:
+            secrets = st.secrets
+        except StreamlitSecretNotFoundError:
+            return
         if secrets.get("GROQ_API_KEY"):
             GROQ_API_KEY = str(secrets["GROQ_API_KEY"])
         if secrets.get("GROQ_MODEL_PRIMARY"):

@@ -266,7 +266,7 @@ with tab1:
                     for row in live_items
                 ]
             )
-            st.dataframe(live_df, use_container_width=True)
+            st.dataframe(live_df, width="stretch")
 
     st.divider()
     st.subheader("Classify custom text")
@@ -417,7 +417,7 @@ with tab3:
                     title="Top blockers (wishlist-tagged reviews)" if insights_payload.get("wishlist_blocker_ranking") else "Top blockers",
                     color_discrete_sequence=[MYNTRA_PINK],
                 )
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width="stretch")
 
         with col_r:
             seg_rows = insights_payload.get("wishlist_segment_distribution") or insights_payload.get("segment_distribution", [])
@@ -430,7 +430,7 @@ with tab3:
                     title="Segment distribution (inferred)",
                     color_discrete_sequence=px.colors.sequential.RdPu,
                 )
-                st.plotly_chart(fig2, use_container_width=True)
+                st.plotly_chart(fig2, width="stretch")
 
         st.markdown("**Segment × blocker (wishlist-tagged reviews)**")
         crosstab = insights_payload.get("segment_x_blocker", {})
@@ -456,6 +456,10 @@ with tab3:
                 f"_\"{quote['quote']}\"_"
             )
 
+def _set_sample_question(sample: str) -> None:
+    st.session_state.qa_question_input = sample
+
+
 with tab4:
     st.subheader("Ask Research — grounded Q&A")
     st.caption(
@@ -475,6 +479,8 @@ with tab4:
     ]
 
     col_q, col_lens = st.columns([3, 1])
+    with col_q:
+        st.caption("Pick an example below or type your own question.")
     with col_lens:
         corpus_lens = st.selectbox(
             "Corpus lens",
@@ -487,21 +493,23 @@ with tab4:
             key="qa_corpus_lens",
         )
 
-    with col_q:
-        question = st.text_area(
-            "Your research question",
-            height=90,
-            key="qa_question_input",
-            placeholder="Ask anything about wishlist behavior, blockers, segments, external validation…",
-        )
-
     st.markdown("**Example questions**")
     example_cols = st.columns(3)
     for index, sample in enumerate(sample_questions):
         label = sample if len(sample) <= 48 else sample[:45] + "…"
-        if example_cols[index % 3].button(label, key=f"qa_sample_{index}"):
-            st.session_state["qa_question_input"] = sample
-            st.rerun()
+        example_cols[index % 3].button(
+            label,
+            key=f"qa_sample_{index}",
+            on_click=_set_sample_question,
+            args=(sample,),
+        )
+
+    question = st.text_area(
+        "Your research question",
+        height=90,
+        key="qa_question_input",
+        placeholder="Ask anything about wishlist behavior, blockers, segments, external validation…",
+    )
 
     ask = st.button("Ask research engine", type="primary", key="qa_ask_btn")
 
@@ -570,13 +578,12 @@ with tab5:
         if config.CLASSIFIER_HEURISTIC_FALLBACK
         else "❌ Missing"
     )
-    st.markdown(f"**Groq API:** {groq_status} · Key: `{mask_key(config.GROQ_API_KEY)}`")
-    st.markdown(f"**Models:** `{config.GROQ_MODEL_PRIMARY}` → `{config.GROQ_MODEL_FALLBACK}`")
-
     st.markdown(
-        """
-```
-Play Store / App Store / Reddit / Forums / Social
+        f"**Groq API:** {groq_status} · Key: `{mask_key(config.GROQ_API_KEY)}`  \n"
+        f"**Models:** `{config.GROQ_MODEL_PRIMARY}` → `{config.GROQ_MODEL_FALLBACK}`"
+    )
+    st.code(
+        """Play Store / App Store / Reddit / Forums / Social
         ↓
    scrape_play_store.py + paste_importer.py
         ↓
@@ -594,9 +601,11 @@ Play Store / App Store / Reddit / Forums / Social
         ↓
    Streamlit demo (this app)
         ↓
-   mvp/app.py — Standalone Wishlist Confidence Brief MVP
-```
-
+   mvp/app.py — Standalone Wishlist Confidence Brief MVP""",
+        language="text",
+    )
+    st.markdown(
+        """
 **Live scraping**
 - Tab 1 **Scrape & classify live** hits Google Play Store in real time via Groq
 - GitHub Actions cron runs the same scrape daily at 10:00 AM IST
@@ -657,7 +666,7 @@ with tab6:
 
         filtered = items if selected_source == "all" else [row for row in items if row.get("source") == selected_source]
         st.markdown(f"**{len(filtered)}** review(s) · source: **{source_label(selected_source) if selected_source != 'all' else 'All'}**")
-        st.dataframe(research_rows(filtered), use_container_width=True, hide_index=True)
+        st.dataframe(research_rows(filtered), width="stretch", hide_index=True)
 
     insights_payload = refresh_insights_display()
     if insights_payload:
