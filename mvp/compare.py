@@ -149,7 +149,7 @@ def render_compare_screen(
     <div class="wishlist-header">
       <h1 style="font-size:28px;font-weight:700;margin:0;">Compare My Saves</h1>
       <div style="display:flex;gap:16px;">
-        <a href="{screen_href('wishlist')}" class="filter-btn">
+        <a href="{screen_href(screen="wishlist")}" class="filter-btn">
           <span class="material-symbols-outlined" style="font-size:18px;">favorite</span> Back to Wishlist
         </a>
       </div>
