@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T09:05:52.227511+00:00",
+  "generated_at": "2026-09-03T09:15:10.902434+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -53,6 +53,26 @@
         "signal_type": "real",
         "theme_label": "size_fit_mention",
         "segment_signal": "fit_anxious"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "48b894c028af498b",
+      "source": "play_store",
+      "text": "Good Product and Service.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "positive_feedback",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -144,6 +164,26 @@
       }
     },
     {
+      "uid": "a0f75fc5d5d13e3a",
+      "source": "play_store",
+      "text": "very good product worth for money",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_value",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "554104f9eb5625ab",
       "source": "play_store",
       "text": "this is cheating app they are not responding for their customers and really feel bad of ur service fraud",
@@ -173,6 +213,26 @@
         "signal_type": "real",
         "theme_label": "price_affordability",
         "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "1f3e26f9bf7e45d4",
+      "source": "play_store",
+      "text": "So far this app has been my ready to go online shop for genuine products.The interface of this app makes shopping and decision making easy.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_interface_experience",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -464,6 +524,26 @@
       }
     },
     {
+      "uid": "72b18afb020d2976",
+      "source": "play_store",
+      "text": "wonderful app for shopping",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "app_experience",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "8016ba34bfd972af",
       "source": "play_store",
       "text": "bahut high price Hai install Karo bekar hai",
@@ -472,6 +552,26 @@
         "blocker_type": "price_wait",
         "signal_type": "real",
         "theme_label": "high_price",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "39adf570f9978198",
+      "source": "play_store",
+      "text": "ganuine product huge discount",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "discount_appreciation",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
@@ -687,106 +787,6 @@
       "uid": "86712724858516fd",
       "source": "play_store",
       "text": "too good for shopping",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "3c79a4b3a2e2fa7c",
-      "source": "play_store",
-      "text": "Myntra returns are too worst. Calling customer care will take 2,3 hrs to connect with agent",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "44c34bc06233ec5d",
-      "source": "play_store",
-      "text": "product quality is really awesome 💯",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "product_quality",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "7cb3c12cd84ff895",
-      "source": "play_store",
-      "text": "bakwass aap hai mut use karo...return lene koy ata nahi aur refund bhi nahi milega ..west of time app location..froud app hai play store please delete Thair licence. don't buy anythings...",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_returns_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "ad0ac8cf48243882",
-      "source": "play_store",
-      "text": "nice app and goo quality products is hear",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "app_quality_praise",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "df6dc4535dce3994",
-      "source": "play_store",
-      "text": "love this app.. purchase product with less money ❤️😋",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
