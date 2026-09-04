@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:15:10.902434+00:00",
+  "generated_at": "2026-09-04T09:08:51.544029+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -704,6 +704,26 @@
       }
     },
     {
+      "uid": "fef5ccb044d2f449",
+      "source": "play_store",
+      "text": "not solve any problem if you complain 👎",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "generic_complaint",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "e006365e2ea9dadd",
       "source": "play_store",
       "text": "best shopping platform for every occasion.",
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "positive_experience",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "86712724858516fd",
-      "source": "play_store",
-      "text": "too good for shopping",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
       },
       "human_labels": {
         "wishlist_related": null,
