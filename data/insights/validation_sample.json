@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:08:51.544029+00:00",
+  "generated_at": "2026-09-05T08:38:40.368012+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -684,6 +684,26 @@
       }
     },
     {
+      "uid": "41c2ddd84e717173",
+      "source": "play_store",
+      "text": "Best service in mantra for customer ❤️",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "customer_service",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "8f669189631abf10",
       "source": "app_store",
       "text": "Saved items pile up. Would buy more if app helped compare two wishlisted sarees for a wedding.",
@@ -724,6 +744,26 @@
       }
     },
     {
+      "uid": "0392c8c36b367fc6",
+      "source": "play_store",
+      "text": "very good app to buy clothings",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "app_positive",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "e006365e2ea9dadd",
       "source": "play_store",
       "text": "best shopping platform for every occasion.",
@@ -752,46 +792,6 @@
         "blocker_type": "none",
         "signal_type": "noise",
         "theme_label": "app_positive",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "89ebbfae76d0f25d",
-      "source": "play_store",
-      "text": "I'm happy with Myntra products",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_experience",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "fe8956e5567b9bd2",
-      "source": "play_store",
-      "text": "Shopping on Myntra is always easy and my experience on Myntra is great as always.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "positive_experience",
         "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
