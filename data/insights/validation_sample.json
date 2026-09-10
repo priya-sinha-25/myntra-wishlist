@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:15:34.954167+00:00",
+  "generated_at": "2026-09-10T09:14:17.385882+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -333,6 +333,26 @@
         "signal_type": "real",
         "theme_label": "order_error",
         "segment_signal": "fit_anxious"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "1db048a8be4157dc",
+      "source": "play_store",
+      "text": "it is a very good and straightforward shopping experience.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "positive_experience",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -764,35 +784,15 @@
       }
     },
     {
-      "uid": "89ae53095e5974b0",
-      "source": "reddit",
-      "text": "Saved 12 blazers for office wardrobe refresh. Size chart says M but reviews say runs small — stuck in analysis paralysis.",
-      "ai_labels": {
-        "wishlist_related": true,
-        "blocker_type": "size_fit",
-        "signal_type": "real",
-        "theme_label": "size_fit_paralysis",
-        "segment_signal": "fit_anxious"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "fae4c8ed34d08baa",
+      "uid": "550851a0fd3bb988",
       "source": "play_store",
-      "text": "Nice febric clothes and sizes are perfect",
+      "text": "Great experience shopping with Myntra",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
         "signal_type": "real",
-        "theme_label": "fabric_quality",
-        "segment_signal": "fit_anxious"
+        "theme_label": "positive_experience",
+        "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
         "wishlist_related": null,
