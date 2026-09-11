@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:14:17.385882+00:00",
+  "generated_at": "2026-09-11T09:12:25.496095+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -133,6 +133,26 @@
         "signal_type": "real",
         "theme_label": "delivery_returns_mention",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "10083f30baa0dc03",
+      "source": "play_store",
+      "text": "online shopping ke liye best 👍😊",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_general_feedback",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -313,6 +333,26 @@
         "signal_type": "real",
         "theme_label": "price_wait_mention",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "d0cb584fca53f66f",
+      "source": "play_store",
+      "text": "Extremely disappointed with Myntra's service. My order is already more than 2 days late, and I still haven't received it. There has been no proper update, no communication, and no effort to resolve the delay. This is completely unacceptable for a company that promises timely delivery. I've been waiting patiently, but this experience has been frustrating and a waste of my time. Very poor customer service and a terrible delivery experience. I won't be trusting Myntra again if this they gonna treat",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_delay",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -753,46 +793,6 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "a9c3a02f9dd09f35",
-      "source": "play_store",
-      "text": "good shopping 🛒 experience",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "positive_experience",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "550851a0fd3bb988",
-      "source": "play_store",
-      "text": "Great experience shopping with Myntra",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_experience",
-        "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
         "wishlist_related": null,
