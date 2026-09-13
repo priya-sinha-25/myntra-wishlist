@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:55:47.195806+00:00",
+  "generated_at": "2026-09-13T09:51:03.838206+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -332,6 +332,26 @@
         "blocker_type": "none",
         "signal_type": "noise",
         "theme_label": "ease_of_use",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "c477f3591eff565c",
+      "source": "play_store",
+      "text": "mast app hai isse jo v mai saman mangawati hu kvi v disappoint nhi hoti hu",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_app_experience",
         "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
@@ -773,26 +793,6 @@
         "signal_type": "real",
         "theme_label": "product_quality",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "88f070cb710f06ca",
-      "source": "play_store",
-      "text": "my fav shopping app everytime I buy I just get amazing prize on my Myntra cash.😍😄😄💯💯❤️",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "reward_prize",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
