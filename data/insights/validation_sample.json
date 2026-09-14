@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-09-13T09:51:03.838206+00:00",
+  "generated_at": "2026-09-14T10:13:45.077507+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
+    {
+      "uid": "94a1385876bc914b",
+      "source": "play_store",
+      "text": "they canceled my order today ,they took 10 days to this process where I was waiting for my order as I have a event tomorrow and I really wanted that product . 8 didn't receive any calls from delivery person or not even message and help line god its AI.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "order_cancellation_due_to_delivery_failure",
+        "segment_signal": "occasion_shopper"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
     {
       "uid": "c0be230445aef8f1",
       "source": "play_store",
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "9b36a8caa8247041",
-      "source": "play_store",
-      "text": "quality is tooo good of myntra products",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "product_quality",
-        "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
         "wishlist_related": null,
