@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:13:45.077507+00:00",
+  "generated_at": "2026-09-15T09:43:33.497562+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -444,6 +444,26 @@
       }
     },
     {
+      "uid": "4021e62faf7294e8",
+      "source": "play_store",
+      "text": "experience with myntra is Too Good",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_experience",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "1db048a8be4157dc",
       "source": "play_store",
       "text": "it is a very good and straightforward shopping experience.",
@@ -773,26 +793,6 @@
         "signal_type": "real",
         "theme_label": "delivery_failure",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "71532491494e4208",
-      "source": "play_store",
-      "text": "this is an amazing platform to buy real and original product",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
       },
       "human_labels": {
         "wishlist_related": null,
