@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T09:43:33.497562+00:00",
+  "generated_at": "2026-09-16T09:35:42.941187+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -153,6 +153,26 @@
         "signal_type": "real",
         "theme_label": "delivery_returns_mention",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "0874fc6c0c2de39d",
+      "source": "play_store",
+      "text": "best quality.. reasonable prices..",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "quality_and_price",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "6696abd1bd2f4c0b",
-      "source": "play_store",
-      "text": "Extremely disappointed. My order was supposed to be delivered on 25th August, but for 4 consecutive days it was repeatedly marked “Out for Delivery” and then “Delivery Failed” without any delivery attempt or call. I raised multiple complaints, and even customer care assured me that it would be delivered within 24 hours. Instead, the order was eventually cancelled. Wasted 4 days waiting for an order that Myntra never properly attempted to deliver. Very poor delivery service and customer support.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_failure",
-        "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
         "wishlist_related": null,
