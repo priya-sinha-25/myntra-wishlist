@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T09:35:42.941187+00:00",
+  "generated_at": "2026-09-17T09:45:57.412189+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -464,6 +464,26 @@
       }
     },
     {
+      "uid": "67e9087e02b916df",
+      "source": "play_store",
+      "text": "fabric is good look like awesome",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "fabric_quality",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "4021e62faf7294e8",
       "source": "play_store",
       "text": "experience with myntra is Too Good",
@@ -473,6 +493,26 @@
         "signal_type": "real",
         "theme_label": "positive_experience",
         "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "4a5eaffe304fe080",
+      "source": "play_store",
+      "text": "Myntra Now is the best option for urgent needs.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "urgent_need",
+        "segment_signal": "occasion_shopper"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -644,6 +684,26 @@
       }
     },
     {
+      "uid": "e15dadbf864b826b",
+      "source": "play_store",
+      "text": "I'm literally waiting from 2 weeks for my order I ordered this 2 weeks before that delivery boys also didn't pick the call worst experience",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "delivery_delay",
+        "segment_signal": "occasion_shopper"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "f0dad397be2554c4",
       "source": "play_store",
       "text": "super app for purchasing dress and cosmetics product",
@@ -733,66 +793,6 @@
         "signal_type": "real",
         "theme_label": "exchange_failure",
         "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "ea7707b41f62b35b",
-      "source": "play_store",
-      "text": "Good and please improve delivery on time specified in the App and provide Delivery partner details in the Myntra App itself to track the consignment in a more feasible way by the customer",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_tracking",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "fcecfc3ccb91da15",
-      "source": "play_store",
-      "text": "This quality is very good 💯",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "quality_doubt",
-        "signal_type": "real",
-        "theme_label": "quality_doubt_mention",
-        "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "f105faf7e993b677",
-      "source": "play_store",
-      "text": "one of the best shopping app fast deliver...what I love is most the team they are very sweet and and soft spoken...whatever I purchase from myntra was authentic original...",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
       },
       "human_labels": {
         "wishlist_related": null,
