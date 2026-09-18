@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:45:57.412189+00:00",
+  "generated_at": "2026-09-18T09:17:42.398988+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -132,6 +132,26 @@
         "blocker_type": "none",
         "signal_type": "noise",
         "theme_label": "account_deactivation",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "0c538f37406d20d9",
+      "source": "play_store",
+      "text": "good shopping app but Once I ordered jeans worth Rs 1200 but even after paying through UPI the order was not delivered, and recently I cancelled an order and it's been almost a month but I have not received the refund yet.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "order_not_delivered",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
@@ -772,26 +792,6 @@
         "blocker_type": "none",
         "signal_type": "real",
         "theme_label": "post_purchase_satisfaction",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "fe97df2d0eab94e8",
-      "source": "play_store",
-      "text": "Order exchange failures due to missing items, seal mismatch, etc stupidity has been frustrating and customer support is a 100% useless",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "exchange_failure",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
