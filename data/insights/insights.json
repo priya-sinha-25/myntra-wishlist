@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-18T09:17:42.365353+00:00",
+  "generated_at": "2026-09-19T09:05:21.530804+00:00",
   "summary": {
-    "total_items": 3032,
+    "total_items": 3132,
     "wishlist_related_count": 117,
-    "wishlist_related_pct": 3.9,
-    "real_signal_count": 2085,
+    "wishlist_related_pct": 3.7,
+    "real_signal_count": 2150,
     "silent_signal_count": 37,
-    "noise_count": 910,
-    "addressable_without_discount_count": 2443,
-    "addressable_without_discount_pct": 80.6,
-    "external_validation_count": 45
+    "noise_count": 945,
+    "addressable_without_discount_count": 2535,
+    "addressable_without_discount_pct": 80.9,
+    "external_validation_count": 46
   },
   "source_breakdown": {
     "reddit": 35,
@@ -17,35 +17,35 @@
     "social": 17,
     "app_store": 5,
     "quora": 2,
-    "play_store": 2940,
+    "play_store": 3040,
     "blog": 5,
     "ux_research": 11
   },
   "signal_breakdown": {
     "silent": 37,
-    "real": 2085,
-    "noise": 910
+    "real": 2150,
+    "noise": 945
   },
   "blocker_ranking": [
     [
       "delivery_returns",
-      532
+      555
     ],
     [
       "quality_doubt",
-      127
+      131
     ],
     [
       "app_ux",
-      117
+      124
     ],
     [
       "price_wait",
-      110
+      111
     ],
     [
       "size_fit",
-      57
+      58
     ],
     [
       "decision_overload",
@@ -105,22 +105,22 @@
   "segment_distribution": [
     [
       "passive_saver",
-      913,
+      945,
       "Passive savers"
     ],
     [
       "deal_hunter",
-      905,
+      940,
       "Deal hunters"
     ],
     [
       "heavy_wishlister",
-      525,
+      545,
       "Heavy wishlisters"
     ],
     [
       "fit_anxious",
-      172,
+      178,
       "Fit-anxious shoppers"
     ],
     [
@@ -130,7 +130,7 @@
     ],
     [
       "occasion_shopper",
-      115,
+      118,
       "Occasion shoppers"
     ],
     [
@@ -169,11 +169,11 @@
   "funnel_step_distribution": [
     [
       "none",
-      2184
+      2247
     ],
     [
       "purchase",
-      696
+      731
     ],
     [
       "uncertainty",
@@ -181,7 +181,7 @@
     ],
     [
       "pdp",
-      36
+      38
     ],
     [
       "revisit",
@@ -294,12 +294,12 @@
       "quote": "Duplicate listings for same kurta set confuse me when comparing wishlisted items on Myntra."
     }
   ],
-  "killer_insight_hypothesis": "Across **3032** classified reviews, only **3.9%** (117) explicitly mention wishlist behaviour — yet **37** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (532 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **45** reviews reference external validation before buying saved items.",
+  "killer_insight_hypothesis": "Across **3132** classified reviews, only **3.7%** (117) explicitly mention wishlist behaviour — yet **37** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (555 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **46** reviews reference external validation before buying saved items.",
   "key_findings": [
-    "Only 3.9% of reviews explicitly mention wishlist — decision failure is mostly silent.",
-    "Top loud blocker: Delivery & returns (532 mentions)",
+    "Only 3.7% of reviews explicitly mention wishlist — decision failure is mostly silent.",
+    "Top loud blocker: Delivery & returns (555 mentions)",
     "Silent signals detected: 37 reviews imply decision gaps without asking for help.",
-    "External validation (YouTube/friends/Instagram): 45 mentions.",
+    "External validation (YouTube/friends/Instagram): 46 mentions.",
     "Among wishlist-tagged reviews, top blocker is Size & fit uncertainty (28 mentions)."
   ]
 }

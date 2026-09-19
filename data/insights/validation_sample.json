@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T09:17:42.398988+00:00",
+  "generated_at": "2026-09-19T09:05:21.564974+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -53,6 +53,26 @@
         "signal_type": "silent",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "285461f7702fd839",
+      "source": "play_store",
+      "text": "nice and the clothes quality is nice",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "quality_appreciation",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -193,6 +213,26 @@
         "signal_type": "real",
         "theme_label": "quality_and_price",
         "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "87be1b52a778bb2e",
+      "source": "play_store",
+      "text": "Genuine,trust worthy",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "generic_positive",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -684,6 +724,26 @@
       }
     },
     {
+      "uid": "f1ff7ab8ff52d869",
+      "source": "play_store",
+      "text": "\"I submitted a product return request, but I haven't received any response from your side. The date keeps changing every day.\" bad costomer service. Meesho is Best",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "return_no_response",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "8be1985755816121",
       "source": "play_store",
       "text": "All in all, very good—the best.",
@@ -733,66 +793,6 @@
         "signal_type": "real",
         "theme_label": "app_praise",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "ace43ccd26d2d658",
-      "source": "play_store",
-      "text": "Myntra is one of my favourite shopping apps! ❤️ Great variety, trendy collections, easy-to-use interface, and smooth delivery. Overall, a really good shopping experience! ✨",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_overall_experience",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "0cf6340f91b6cbf9",
-      "source": "play_store",
-      "text": "good at fast delivery and customer support",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "fast_delivery",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "c5eae7feedaf3548",
-      "source": "play_store",
-      "text": "“Really happy with this purchase. The product arrived on time and was packed properly. The quality is good and it looks just like the pictures. It works/feels as expected, and I’m satisfied with the purchase. Good value for money. Would recommend.”",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "post_purchase_satisfaction",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
