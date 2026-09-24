@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:36:59.283057+00:00",
+  "generated_at": "2026-09-24T09:37:11.733611+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -724,6 +724,26 @@
       }
     },
     {
+      "uid": "f0a41c6f65dcb0b5",
+      "source": "play_store",
+      "text": "nice product on Myntra.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "positive_product_comment",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "fe9f4cedff119d46",
       "source": "play_store",
       "text": "Saved western dress for date night, checked YouTube hauls for fabric transparency before buying.",
@@ -773,26 +793,6 @@
         "signal_type": "real",
         "theme_label": "exchange_rejection",
         "segment_signal": "fit_anxious"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "8be1985755816121",
-      "source": "play_store",
-      "text": "All in all, very good—the best.",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "positive_feedback",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
