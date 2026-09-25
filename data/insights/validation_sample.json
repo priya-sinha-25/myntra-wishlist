@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:37:11.733611+00:00",
+  "generated_at": "2026-09-25T09:55:11.513573+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -233,6 +233,26 @@
         "signal_type": "noise",
         "theme_label": "generic_positive",
         "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "f523cfaeeb2c997c",
+      "source": "play_store",
+      "text": "nice 👍🏼👍🏼👍🏼 👍🏼👍🏼👍🏼👍🏼👍🏼👍🏼",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "positive_feedback",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -773,26 +793,6 @@
         "signal_type": "real",
         "theme_label": "return_no_response",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "05bb0c8f2082b0f2",
-      "source": "play_store",
-      "text": "worst customer service ever i wanted to do size exchange but they changed colour of my costume in order details in app so my exchange and return was rejected i complained so many times but they didn't fix now I'm left with wrong size unable to return or exchange they are just outright scamming people that was my first and last order never using this app again MYNTRA IS A SCAM I'M GOING TO SUE THEM",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "size_fit",
-        "signal_type": "real",
-        "theme_label": "exchange_rejection",
-        "segment_signal": "fit_anxious"
       },
       "human_labels": {
         "wishlist_related": null,
