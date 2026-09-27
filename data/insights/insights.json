@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-26T09:39:04.979282+00:00",
+  "generated_at": "2026-09-27T10:18:58.088641+00:00",
   "summary": {
-    "total_items": 3831,
+    "total_items": 3931,
     "wishlist_related_count": 117,
-    "wishlist_related_pct": 3.1,
-    "real_signal_count": 2627,
+    "wishlist_related_pct": 3.0,
+    "real_signal_count": 2703,
     "silent_signal_count": 39,
-    "noise_count": 1165,
-    "addressable_without_discount_count": 3179,
-    "addressable_without_discount_pct": 83.0,
-    "external_validation_count": 54
+    "noise_count": 1189,
+    "addressable_without_discount_count": 3269,
+    "addressable_without_discount_pct": 83.2,
+    "external_validation_count": 56
   },
   "source_breakdown": {
     "reddit": 35,
@@ -17,35 +17,35 @@
     "social": 17,
     "app_store": 5,
     "quora": 2,
-    "play_store": 3739,
+    "play_store": 3839,
     "blog": 5,
     "ux_research": 11
   },
   "signal_breakdown": {
     "silent": 39,
-    "real": 2627,
-    "noise": 1165
+    "real": 2703,
+    "noise": 1189
   },
   "blocker_ranking": [
     [
       "delivery_returns",
-      693
+      712
     ],
     [
       "quality_doubt",
-      155
+      158
     ],
     [
       "app_ux",
-      145
+      148
     ],
     [
       "price_wait",
-      121
+      126
     ],
     [
       "size_fit",
-      61
+      63
     ],
     [
       "decision_overload",
@@ -105,27 +105,27 @@
   "segment_distribution": [
     [
       "passive_saver",
-      1209,
+      1240,
       "Passive savers"
     ],
     [
       "deal_hunter",
-      1139,
+      1176,
       "Deal hunters"
     ],
     [
       "heavy_wishlister",
-      682,
+      703,
       "Heavy wishlisters"
     ],
     [
       "fit_anxious",
-      230,
+      236,
       "Fit-anxious shoppers"
     ],
     [
       "occasion_shopper",
-      146,
+      150,
       "Occasion shoppers"
     ],
     [
@@ -169,19 +169,19 @@
   "funnel_step_distribution": [
     [
       "none",
-      2750
+      2820
     ],
     [
       "purchase",
-      919
+      945
     ],
     [
       "uncertainty",
-      53
+      54
     ],
     [
       "pdp",
-      42
+      45
     ],
     [
       "revisit",
@@ -294,12 +294,12 @@
       "quote": "Duplicate listings for same kurta set confuse me when comparing wishlisted items on Myntra."
     }
   ],
-  "killer_insight_hypothesis": "Across **3831** classified reviews, only **3.1%** (117) explicitly mention wishlist behaviour — yet **39** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (693 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **54** reviews reference external validation before buying saved items.",
+  "killer_insight_hypothesis": "Across **3931** classified reviews, only **3.0%** (117) explicitly mention wishlist behaviour — yet **39** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (712 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **56** reviews reference external validation before buying saved items.",
   "key_findings": [
-    "Only 3.1% of reviews explicitly mention wishlist — decision failure is mostly silent.",
-    "Top loud blocker: Delivery & returns (693 mentions)",
+    "Only 3.0% of reviews explicitly mention wishlist — decision failure is mostly silent.",
+    "Top loud blocker: Delivery & returns (712 mentions)",
     "Silent signals detected: 39 reviews imply decision gaps without asking for help.",
-    "External validation (YouTube/friends/Instagram): 54 mentions.",
+    "External validation (YouTube/friends/Instagram): 56 mentions.",
     "Among wishlist-tagged reviews, top blocker is Size & fit uncertainty (28 mentions)."
   ]
 }
