@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:01:17.501885+00:00",
+  "generated_at": "2026-09-30T10:48:02.574356+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -273,6 +273,26 @@
         "signal_type": "noise",
         "theme_label": "overall_app_experience",
         "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "33316a01b4a7e968",
+      "source": "play_store",
+      "text": "great apps for best clothes",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "app_appreciation",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -773,26 +793,6 @@
         "signal_type": "real",
         "theme_label": "dark_mode_request",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "5466b03e51d33124",
-      "source": "play_store",
-      "text": "good product and worth",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "product_quality",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
