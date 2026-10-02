@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:16:27.164194+00:00",
+  "generated_at": "2026-10-02T10:49:10.757278+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -764,15 +764,15 @@
       }
     },
     {
-      "uid": "608040b21bfc22cf",
+      "uid": "6d4418c857ee4440",
       "source": "play_store",
-      "text": "Irresponsible platform with useless AI customer service. Delayed shipment and no responsibility of it taken by them.No human support which could understand your issue. There is always a risk of lossing your item and they no way take responsibility.",
+      "text": "I have good experience toh buy products from Myntra",
       "ai_labels": {
         "wishlist_related": false,
-        "blocker_type": "delivery_returns",
+        "blocker_type": "none",
         "signal_type": "real",
-        "theme_label": "delivery_service_issue",
-        "segment_signal": "heavy_wishlister"
+        "theme_label": "positive_purchase_experience",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -784,14 +784,14 @@
       }
     },
     {
-      "uid": "bc6fe89ea3c32133",
+      "uid": "608040b21bfc22cf",
       "source": "play_store",
-      "text": "can you make a dark option also available for the app",
+      "text": "Irresponsible platform with useless AI customer service. Delayed shipment and no responsibility of it taken by them.No human support which could understand your issue. There is always a risk of lossing your item and they no way take responsibility.",
       "ai_labels": {
         "wishlist_related": false,
-        "blocker_type": "app_ux",
+        "blocker_type": "delivery_returns",
         "signal_type": "real",
-        "theme_label": "dark_mode_request",
+        "theme_label": "delivery_service_issue",
         "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
