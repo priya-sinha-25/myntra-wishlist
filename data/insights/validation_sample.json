@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:09:07.432975+00:00",
+  "generated_at": "2026-10-04T10:52:49.812142+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -332,6 +332,26 @@
         "blocker_type": "quality_doubt",
         "signal_type": "real",
         "theme_label": "quality_doubt_mention",
+        "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "2adee9a7cdc59df8",
+      "source": "play_store",
+      "text": "VERY GOOD APP AND EASY TO USE AND NAVIGATION .",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "app_usability",
         "segment_signal": "unknown"
       },
       "human_labels": {
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "80ae6d7977d58f13",
-      "source": "play_store",
-      "text": "Really disappointing, myntra se achhi service meesho and flipkart ki hai, high rate k sath high quality and low quality h to low price h, delivery service achhi h, and mytra kuchh kuchh product me high quality images dikha k low quality and different brand ke product send kr dete hai and delivery service bht khrab hai, refund myntra credit pr hi aaega bank and upi ka option nhi dete and with expiry date, customer ke product refund pr expiry date dene ka kya reason hai",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "quality_doubt",
-        "signal_type": "real",
-        "theme_label": "product_quality_mismatch",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,

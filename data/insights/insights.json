@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03T10:09:07.383481+00:00",
+  "generated_at": "2026-10-04T10:52:49.762241+00:00",
   "summary": {
-    "total_items": 4530,
+    "total_items": 4630,
     "wishlist_related_count": 117,
-    "wishlist_related_pct": 2.6,
-    "real_signal_count": 3096,
+    "wishlist_related_pct": 2.5,
+    "real_signal_count": 3168,
     "silent_signal_count": 41,
-    "noise_count": 1393,
-    "addressable_without_discount_count": 3811,
-    "addressable_without_discount_pct": 84.1,
+    "noise_count": 1421,
+    "addressable_without_discount_count": 3906,
+    "addressable_without_discount_pct": 84.4,
     "external_validation_count": 61
   },
   "source_breakdown": {
@@ -17,31 +17,31 @@
     "social": 17,
     "app_store": 5,
     "quora": 2,
-    "play_store": 4438,
+    "play_store": 4538,
     "blog": 5,
     "ux_research": 11
   },
   "signal_breakdown": {
     "silent": 41,
-    "real": 3096,
-    "noise": 1393
+    "real": 3168,
+    "noise": 1421
   },
   "blocker_ranking": [
     [
       "delivery_returns",
-      807
+      822
     ],
     [
       "quality_doubt",
-      171
+      175
     ],
     [
       "app_ux",
-      163
+      166
     ],
     [
       "price_wait",
-      138
+      140
     ],
     [
       "size_fit",
@@ -105,27 +105,27 @@
   "segment_distribution": [
     [
       "passive_saver",
-      1473,
+      1502,
       "Passive savers"
     ],
     [
       "deal_hunter",
-      1381,
+      1417,
       "Deal hunters"
     ],
     [
       "heavy_wishlister",
-      804,
+      819,
       "Heavy wishlisters"
     ],
     [
       "fit_anxious",
-      265,
+      275,
       "Fit-anxious shoppers"
     ],
     [
       "occasion_shopper",
-      166,
+      169,
       "Occasion shoppers"
     ],
     [
@@ -169,19 +169,19 @@
   "funnel_step_distribution": [
     [
       "none",
-      3253
+      3326
     ],
     [
       "purchase",
-      1102
+      1125
     ],
     [
       "uncertainty",
-      55
+      56
     ],
     [
       "pdp",
-      51
+      53
     ],
     [
       "revisit",
@@ -189,7 +189,7 @@
     ],
     [
       "cart",
-      24
+      25
     ],
     [
       "add",
@@ -294,10 +294,10 @@
       "quote": "Duplicate listings for same kurta set confuse me when comparing wishlisted items on Myntra."
     }
   ],
-  "killer_insight_hypothesis": "Across **4530** classified reviews, only **2.6%** (117) explicitly mention wishlist behaviour — yet **41** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (807 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **61** reviews reference external validation before buying saved items.",
+  "killer_insight_hypothesis": "Across **4630** classified reviews, only **2.5%** (117) explicitly mention wishlist behaviour — yet **41** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (822 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **61** reviews reference external validation before buying saved items.",
   "key_findings": [
-    "Only 2.6% of reviews explicitly mention wishlist — decision failure is mostly silent.",
-    "Top loud blocker: Delivery & returns (807 mentions)",
+    "Only 2.5% of reviews explicitly mention wishlist — decision failure is mostly silent.",
+    "Top loud blocker: Delivery & returns (822 mentions)",
     "Silent signals detected: 41 reviews imply decision gaps without asking for help.",
     "External validation (YouTube/friends/Instagram): 61 mentions.",
     "Among wishlist-tagged reviews, top blocker is Size & fit uncertainty (28 mentions)."
