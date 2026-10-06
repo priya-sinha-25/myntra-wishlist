@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T11:53:57.258928+00:00",
+  "generated_at": "2026-10-06T11:36:20.330572+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -464,6 +464,26 @@
       }
     },
     {
+      "uid": "8ee1a968f18bd1fc",
+      "source": "play_store",
+      "text": "myntra is one of the bestest platform to shop online with no hesitation as it's trustworthy and with quality",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "trust_and_quality",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "4b9db3121d6e06d4",
       "source": "play_store",
       "text": "app easy to use ..good discount on products compared to other sites ..and very good service.....",
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "product_quality",
         "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "ea6a2b2a9de8bd0a",
-      "source": "play_store",
-      "text": "I like using the app",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "unrelated",
-        "segment_signal": "unknown"
       },
       "human_labels": {
         "wishlist_related": null,
