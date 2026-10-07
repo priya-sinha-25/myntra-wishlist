@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:36:20.330572+00:00",
+  "generated_at": "2026-10-07T11:24:22.636500+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -173,6 +173,26 @@
         "signal_type": "real",
         "theme_label": "overall_experience_positive",
         "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "24f08ee3bd9ab724",
+      "source": "play_store",
+      "text": "this is osm quilty products and good delivered original quilty best fiting ever",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality_fit",
+        "segment_signal": "fit_anxious"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -772,26 +792,6 @@
         "blocker_type": "none",
         "signal_type": "real",
         "theme_label": "app_appreciation",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "55ff74b460ef98b6",
-      "source": "play_store",
-      "text": "superb quality products",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "product_quality",
         "segment_signal": "passive_saver"
       },
       "human_labels": {
