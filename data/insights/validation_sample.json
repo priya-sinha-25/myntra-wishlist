@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:24:22.636500+00:00",
+  "generated_at": "2026-10-08T11:41:23.997462+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -332,6 +332,26 @@
         "blocker_type": "none",
         "signal_type": "noise",
         "theme_label": "app_appreciation",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "3d2242c05b58e50d",
+      "source": "play_store",
+      "text": "my account deactivated plz Activate my account it's very nice",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "app_ux",
+        "signal_type": "real",
+        "theme_label": "account_activation",
         "segment_signal": "passive_saver"
       },
       "human_labels": {
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "app_trust",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "79593d4789ff56f2",
-      "source": "play_store",
-      "text": "best app i have ever used",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "app_appreciation",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
