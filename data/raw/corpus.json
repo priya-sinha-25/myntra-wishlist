@@ -1,7 +1,1407 @@
 {
-  "updated_at": "2026-10-12T12:15:37.417609+00:00",
-  "count": 5430,
+  "updated_at": "2026-10-13T11:59:40.151300+00:00",
+  "count": 5530,
   "items": [
+    {
+      "uid": "ef1d1b3079ec86e3",
+      "source": "play_store",
+      "text": "helping saport are very bad not any give proper response",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=77d27a30-4bce-4a52-bcbf-4c0696cdcaaa",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "77d27a30-4bce-4a52-bcbf-4c0696cdcaaa",
+        "thumbs_up": 0,
+        "user_name": "Tushar Barua"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595585+00:00"
+    },
+    {
+      "uid": "9892a158b037e190",
+      "source": "play_store",
+      "text": "very trustworthy app for everyone.best quality products are there.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=2c105a83-43f6-4a81-bf18-0e5e408ba6a6",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "2c105a83-43f6-4a81-bf18-0e5e408ba6a6",
+        "thumbs_up": 0,
+        "user_name": "Ramji Gupta"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595613+00:00"
+    },
+    {
+      "uid": "e5f1082ef77131b8",
+      "source": "play_store",
+      "text": "Very Disappointing Experience with Myntra and the Seller! I ordered a brown T-shirt but received a black one. I raised an exchange request, but the same incorrect product was delivered again. As advised by the customer care representative, I requested another exchange, but still haven't received the correct product. To make matters worse, customer care is unable to confirm whether the ordered product is actually available with the supplier. This reflects extremely poor coordination, lack of ac",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=5d9d32ad-4510-4aac-8ec2-63335d938ba7",
+      "rating": 3,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "5d9d32ad-4510-4aac-8ec2-63335d938ba7",
+        "thumbs_up": 0,
+        "user_name": "gaurav bondre"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595625+00:00"
+    },
+    {
+      "uid": "93437a82888266ad",
+      "source": "play_store",
+      "text": "not at all good communication with customer with selling cheap and waste products that we get simply if we dont order also useless app",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=af954d89-b465-48a9-bf8c-a63b6b19e6d3",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "af954d89-b465-48a9-bf8c-a63b6b19e6d3",
+        "thumbs_up": 0,
+        "user_name": "Vedavathi Sullia"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595635+00:00"
+    },
+    {
+      "uid": "a08a5477edb8e5d5",
+      "source": "play_store",
+      "text": "one Stop for Styling... #Myntra",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=63d0e9fd-8c40-4371-92bc-d39b91883ec6",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "63d0e9fd-8c40-4371-92bc-d39b91883ec6",
+        "thumbs_up": 0,
+        "user_name": "Singh Gautam"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595639+00:00"
+    },
+    {
+      "uid": "1399fe92031b6606",
+      "source": "play_store",
+      "text": "I'm utterly pissed at myntra after cancelling my order i should get my refund (it was through upi payment mode). But two days have passed and i have not received the amount i even contacted my bank and they told me there isn't any refund under process in your account. I seriously got scammed. Never in my life I'm ordering here.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=093dd85e-17ce-4679-b2f8-ff58e9a3d715",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "093dd85e-17ce-4679-b2f8-ff58e9a3d715",
+        "thumbs_up": 0,
+        "user_name": "Annekha Sonowal"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595646+00:00"
+    },
+    {
+      "uid": "2815b61a70d76a11",
+      "source": "play_store",
+      "text": "very trustworthy platform..with easy return and get ur refund at a lighting speed... ##LoveMYNTRA",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=fd1b92a6-7db0-461b-b0b2-119bc58c630f",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "fd1b92a6-7db0-461b-b0b2-119bc58c630f",
+        "thumbs_up": 0,
+        "user_name": "Sumona Banerjee"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595650+00:00"
+    },
+    {
+      "uid": "6af5f45845221677",
+      "source": "play_store",
+      "text": "thiss app iss very helpfull it often gives fast delivers than others literally of youu are thinking of adding itt thannn absolutely youu should because it is really an excellent choiceee!!!",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=857c91bd-2bd7-407a-b8e0-f41842b36913",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "857c91bd-2bd7-407a-b8e0-f41842b36913",
+        "thumbs_up": 0,
+        "user_name": "Krishika Kapoor"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595669+00:00"
+    },
+    {
+      "uid": "1c7ec8f5de1fa75e",
+      "source": "play_store",
+      "text": "nice products and excellent qualities",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=f06a3e84-b4c8-4e9b-b5a0-25d1c1c9307b",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "f06a3e84-b4c8-4e9b-b5a0-25d1c1c9307b",
+        "thumbs_up": 0,
+        "user_name": "eSports Only"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595676+00:00"
+    },
+    {
+      "uid": "472ca67b317227bb",
+      "source": "play_store",
+      "text": "Myntra is a great app for shopping. It offers a wide variety of fashionable clothes, footwear, and accessories. The app is easy to use, and the products are of good quality. I am very happy with my shopping experience. Highly recommended! ❤️",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=de3c990a-a424-45d5-a3d4-119992af6ca0",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "de3c990a-a424-45d5-a3d4-119992af6ca0",
+        "thumbs_up": 0,
+        "user_name": "Shabnam Thakur"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595686+00:00"
+    },
+    {
+      "uid": "4e9f005feb70279a",
+      "source": "play_store",
+      "text": "product ordered by me in sep 24 was cancelled after 5 days though I paid through upi for rs 121 for brit accent perfume. Till now refund is not reflected to my upi account. but app shows refund issued. When I spoke to customer care even they too don't resolve this issue n asking me to go to bank n check. when I pay through upi what can bank can do ?? I really fed up calling n speaking to worst customer care from a week. it's almost 4 to 5 times I have spoke to them. resolve it soon.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=f1e2ecdc-12ad-449e-ada0-a9980df96bce",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "f1e2ecdc-12ad-449e-ada0-a9980df96bce",
+        "thumbs_up": 0,
+        "user_name": "poornima Vikas"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595696+00:00"
+    },
+    {
+      "uid": "954f21aba6208730",
+      "source": "play_store",
+      "text": "best quality of myntra",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=023fd2ef-e789-4c91-b936-cb57a1947426",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "023fd2ef-e789-4c91-b936-cb57a1947426",
+        "thumbs_up": 0,
+        "user_name": "ritu bhagat"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595699+00:00"
+    },
+    {
+      "uid": "6568731ca2a62208",
+      "source": "play_store",
+      "text": "🤩Nice shopping platform",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=4ad0cc45-371e-44ee-bc00-78bd1cc7e05b",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "4ad0cc45-371e-44ee-bc00-78bd1cc7e05b",
+        "thumbs_up": 0,
+        "user_name": "TIKU PUJHARI"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595704+00:00"
+    },
+    {
+      "uid": "8700e422c1bc053f",
+      "source": "play_store",
+      "text": "Very good quality. Size is also good",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=32771586-c6af-4e19-a303-a5f742457fd7",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "32771586-c6af-4e19-a303-a5f742457fd7",
+        "thumbs_up": 0,
+        "user_name": "Samrat Chakraborty"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595710+00:00"
+    },
+    {
+      "uid": "6aa65d5ce5c117a2",
+      "source": "play_store",
+      "text": "best app for shopping",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=d7cb3968-5655-4fd7-a2dc-e67bd6b2a50e",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "d7cb3968-5655-4fd7-a2dc-e67bd6b2a50e",
+        "thumbs_up": 0,
+        "user_name": "Payal Kumari"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595713+00:00"
+    },
+    {
+      "uid": "41cbb00daa3c6270",
+      "source": "play_store",
+      "text": "love shopping from myntra than any other platform",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=d9d9d444-375a-4358-a20f-a821791a9523",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "d9d9d444-375a-4358-a20f-a821791a9523",
+        "thumbs_up": 1,
+        "user_name": "DiptiSingh DS"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595716+00:00"
+    },
+    {
+      "uid": "49bdf7ca2069216d",
+      "source": "play_store",
+      "text": "myntra is the fastest app",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=d44927bd-f1c6-41d3-b7f9-1d5a0b9da84b",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "d44927bd-f1c6-41d3-b7f9-1d5a0b9da84b",
+        "thumbs_up": 0,
+        "user_name": "Shraddha Rupnar"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595721+00:00"
+    },
+    {
+      "uid": "96c4d907ebe72300",
+      "source": "play_store",
+      "text": "I have changed my mobile and login with my mobile number but it is created like new account. I can't see my wish list or order history.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=3e818710-aaf5-4bdd-ab86-23ae26f6c2a2",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "3e818710-aaf5-4bdd-ab86-23ae26f6c2a2",
+        "thumbs_up": 0,
+        "user_name": "kaushal mehta"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595727+00:00"
+    },
+    {
+      "uid": "ecfbaef6f63a4a7a",
+      "source": "play_store",
+      "text": "very good experience and myn cash are my favourite",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=5ccb502d-cf0a-431c-b9b9-48b077b15b14",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "5ccb502d-cf0a-431c-b9b9-48b077b15b14",
+        "thumbs_up": 0,
+        "user_name": "Shriyanshi Kopal"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595730+00:00"
+    },
+    {
+      "uid": "b345223355954fae",
+      "source": "play_store",
+      "text": "too much bad experience.. placing a false order and then no service in exchanging the product total loss of time money and efficiency",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=c9c0cec2-b497-4d20-b85c-731f48e01e1f",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "c9c0cec2-b497-4d20-b85c-731f48e01e1f",
+        "thumbs_up": 0,
+        "user_name": "anuj bhambri"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595743+00:00"
+    },
+    {
+      "uid": "280b2be04f6c0285",
+      "source": "play_store",
+      "text": "nice app please using this app",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=2f770a4d-e26c-45c2-b52e-549ded19b882",
+      "rating": 4,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "2f770a4d-e26c-45c2-b52e-549ded19b882",
+        "thumbs_up": 0,
+        "user_name": "Kabita Dutta"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595753+00:00"
+    },
+    {
+      "uid": "029297799c8bacdd",
+      "source": "play_store",
+      "text": "qualities is so perfect 🤩",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=216e4e76-589e-4fa5-ad1b-e7c2eccfe69d",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "216e4e76-589e-4fa5-ad1b-e7c2eccfe69d",
+        "thumbs_up": 0,
+        "user_name": "Sumaiya Khan"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595757+00:00"
+    },
+    {
+      "uid": "b33c14178c0a8622",
+      "source": "play_store",
+      "text": "very good fully satisfied",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=e1c35e43-ed25-4d9c-b641-c9bf6ae12ba9",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "e1c35e43-ed25-4d9c-b641-c9bf6ae12ba9",
+        "thumbs_up": 0,
+        "user_name": "Soumyadeep Ghosh"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595761+00:00"
+    },
+    {
+      "uid": "a945ddf152a22347",
+      "source": "play_store",
+      "text": "worst online shopping app pgl bnate hai delivery ke nme pr jitni bar shoping ki har bar kafi tym tk delay krte2 order cancel Kiya fraud krte hai customer ke sath jab delivery nhi deni to why do you take the order?",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=cce6462f-eabf-466e-b4b8-4a1f4d41ee5a",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "cce6462f-eabf-466e-b4b8-4a1f4d41ee5a",
+        "thumbs_up": 0,
+        "user_name": "Jyo saini"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595766+00:00"
+    },
+    {
+      "uid": "44f7e82c05c77ac5",
+      "source": "play_store",
+      "text": "Worst delivery and customer care. First time used Myntra and I don't think I ever will again. My order was supposed to be delivered BY 7th Oct, however it didn't, on 8th I contacted to Customer Care who ASSURED me that the order will be delivered tomorrow (i.e. 9th Oct). I needed the delivery by then because next day I would have been out of station for a month. I let them know that too . But guess what, it still wasn't. On 10th when the delivery man contacted me fo",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=a08b3e93-3eb0-4f6a-a25c-ea8bfbfd4bed",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "a08b3e93-3eb0-4f6a-a25c-ea8bfbfd4bed",
+        "thumbs_up": 0,
+        "user_name": "Pes Eternity"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595776+00:00"
+    },
+    {
+      "uid": "f11bbed4e255a52b",
+      "source": "play_store",
+      "text": "fast delivery and quality is very good price high but quality very good",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=0818b51f-04d9-4572-8c78-72c0a6315bff",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "0818b51f-04d9-4572-8c78-72c0a6315bff",
+        "thumbs_up": 0,
+        "user_name": "Nil Das"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595780+00:00"
+    },
+    {
+      "uid": "737e22eee4470b56",
+      "source": "play_store",
+      "text": "worst experience Instead of my 1248rs product Myntra sent me torn old clothes, seriously, even worse customer care After talking, I am being told that we have sent you the product properly but the delivery of torn old clothes has been done through Myntra only and they have cancelled my return exchange and There is no chance of them returning my Rs 1248, why can't we open the delivery product and since the payment has already been made, it is no longer Mitra's responsibility.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=07a6239b-cfa9-46b0-82f6-1aeed81753df",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "07a6239b-cfa9-46b0-82f6-1aeed81753df",
+        "thumbs_up": 0,
+        "user_name": "Shraddha Pande"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595786+00:00"
+    },
+    {
+      "uid": "b6ff44993895bebf",
+      "source": "play_store",
+      "text": "Fake replacement guarantee ❌ Worst Customer service 😞 Full of fake product and wrong labelling 🤬",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=d676396e-aacb-45cd-86c8-dd65aff8d6a5",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "d676396e-aacb-45cd-86c8-dd65aff8d6a5",
+        "thumbs_up": 0,
+        "user_name": "Arpan Roy"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595792+00:00"
+    },
+    {
+      "uid": "6a3636b33f25b6c1",
+      "source": "play_store",
+      "text": "it's one of the most trusted and good plateform for shopping in online way",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=c61b54e1-09d3-447e-b6c5-9f3b30445d5b",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "c61b54e1-09d3-447e-b6c5-9f3b30445d5b",
+        "thumbs_up": 0,
+        "user_name": "Anubhabi Hiya"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595795+00:00"
+    },
+    {
+      "uid": "acc77ccc58d210eb",
+      "source": "play_store",
+      "text": "just as i expected best app",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=e9866254-8199-406f-ad9a-b9a0dff6d74f",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "e9866254-8199-406f-ad9a-b9a0dff6d74f",
+        "thumbs_up": 0,
+        "user_name": "Avinash Biswas"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595803+00:00"
+    },
+    {
+      "uid": "a1bdd6d5ea5d7d56",
+      "source": "play_store",
+      "text": "good products specialy clothes",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=306170e1-be24-45da-88e1-40e2043ebe2f",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "306170e1-be24-45da-88e1-40e2043ebe2f",
+        "thumbs_up": 0,
+        "user_name": "Jt Jeet"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595806+00:00"
+    },
+    {
+      "uid": "c9df88420f0cbdd5",
+      "source": "play_store",
+      "text": "good app too much brand",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=6d0c7717-062c-465b-8fcc-88ea268b0984",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "6d0c7717-062c-465b-8fcc-88ea268b0984",
+        "thumbs_up": 0,
+        "user_name": "irfan patel"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595809+00:00"
+    },
+    {
+      "uid": "f8d90e98462ec31c",
+      "source": "play_store",
+      "text": "Best app for online shopping",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=c43d20e6-6fe4-4322-9467-5abc18f07ebc",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "c43d20e6-6fe4-4322-9467-5abc18f07ebc",
+        "thumbs_up": 0,
+        "user_name": "divyanshu prakash"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595812+00:00"
+    },
+    {
+      "uid": "8215c3148a39cf0f",
+      "source": "play_store",
+      "text": "I love to shop in myntra",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=76ecbfe0-bdf4-48b1-88a7-165c2552b3dd",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "76ecbfe0-bdf4-48b1-88a7-165c2552b3dd",
+        "thumbs_up": 0,
+        "user_name": "Bhavana bhanu"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595815+00:00"
+    },
+    {
+      "uid": "da7497a1520d9f84",
+      "source": "play_store",
+      "text": "pathetic customer support parcel reached hub 2 days back & concernnteam mot bother about delivery & customer support team just give illogical reply",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=166e22d8-7913-42af-a104-c2e597cb0b4a",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "166e22d8-7913-42af-a104-c2e597cb0b4a",
+        "thumbs_up": 1,
+        "user_name": "GURDEEP LAMBA"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595821+00:00"
+    },
+    {
+      "uid": "866619bea8c6b6ca",
+      "source": "play_store",
+      "text": "nice and comfortable shoes",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=5f2781cd-6cbb-46ed-b0f3-a73567450fd4",
+      "rating": 4,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "5f2781cd-6cbb-46ed-b0f3-a73567450fd4",
+        "thumbs_up": 0,
+        "user_name": "Alice Sanate"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595823+00:00"
+    },
+    {
+      "uid": "3d27aac1f2676d8c",
+      "source": "play_store",
+      "text": "all products on myntra you can purchase without any doubt I always satisfied with it👍",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=fcc438e5-43b5-437d-9401-0c947eec6ea0",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "fcc438e5-43b5-437d-9401-0c947eec6ea0",
+        "thumbs_up": 0,
+        "user_name": "sunil malviya"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595828+00:00"
+    },
+    {
+      "uid": "bd38434bcc2f6aff",
+      "source": "play_store",
+      "text": "One of my favourite shopping app!!😍😍",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=40aeaf41-0ceb-44e6-aa2f-3d14fd28eea0",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "40aeaf41-0ceb-44e6-aa2f-3d14fd28eea0",
+        "thumbs_up": 0,
+        "user_name": "Khushi Gupta"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595834+00:00"
+    },
+    {
+      "uid": "766c0832a881e0db",
+      "source": "play_store",
+      "text": "superb quality, Best price deal",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=a86a09be-f7c3-4e49-93c3-dc1e2ca772ec",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "a86a09be-f7c3-4e49-93c3-dc1e2ca772ec",
+        "thumbs_up": 0,
+        "user_name": "Ayushi Jalan"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595837+00:00"
+    },
+    {
+      "uid": "c1a190fd12b8e220",
+      "source": "play_store",
+      "text": "I have ordered watch and it's very good, thank you to myntra shopping",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=727f22ca-113e-43de-bfaf-da07a89db2fd",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "727f22ca-113e-43de-bfaf-da07a89db2fd",
+        "thumbs_up": 0,
+        "user_name": "Narendra"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595843+00:00"
+    },
+    {
+      "uid": "f47af1592bfea184",
+      "source": "play_store",
+      "text": "Lowest price of all time in this app myntra is one of the best applications for online shopping Flipkart And amazon price is high Compare to this application.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=9eaaa1ef-c4f8-4ec6-8e99-9aeb24f26ed4",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "9eaaa1ef-c4f8-4ec6-8e99-9aeb24f26ed4",
+        "thumbs_up": 0,
+        "user_name": "Pradip Ahir"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595846+00:00"
+    },
+    {
+      "uid": "8c74b45deb05db36",
+      "source": "play_store",
+      "text": "nice app to buy product and cost effective also",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=59d08f1a-27d1-4171-a604-1adffafde892",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "59d08f1a-27d1-4171-a604-1adffafde892",
+        "thumbs_up": 0,
+        "user_name": "Anup Sehgal"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595849+00:00"
+    },
+    {
+      "uid": "dd47cb4c13166cdc",
+      "source": "play_store",
+      "text": "such a scam app . delivered the used product and requested for return they are just delaying the dates man. never gonna use this app again .. they have the worst customer care service they just say everytime we have generated the issue code it will resolve soon but how many days man I am trying this from last 7 days",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=a5628e3d-a791-433a-9411-32163cf093d9",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "a5628e3d-a791-433a-9411-32163cf093d9",
+        "thumbs_up": 0,
+        "user_name": "Capital Gain"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595855+00:00"
+    },
+    {
+      "uid": "092eb3000f7d62ae",
+      "source": "play_store",
+      "text": "a good app as quality product.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=c93abd4e-4218-4287-b408-fc58548469a7",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "c93abd4e-4218-4287-b408-fc58548469a7",
+        "thumbs_up": 0,
+        "user_name": "Mahendra Sharma"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595860+00:00"
+    },
+    {
+      "uid": "df2b605e46df8378",
+      "source": "play_store",
+      "text": "This app is nicer than other apps",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=b7d635c5-b24a-4a73-9c29-9160ed6d52f5",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "b7d635c5-b24a-4a73-9c29-9160ed6d52f5",
+        "thumbs_up": 0,
+        "user_name": "Atik Atik"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595863+00:00"
+    },
+    {
+      "uid": "fbab76b5ccf411b7",
+      "source": "play_store",
+      "text": "Trendy products but discount coupon not available for me that's a frustating thing",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=9e5a4002-bd88-41fd-b121-1aa0d7f3c239",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "9e5a4002-bd88-41fd-b121-1aa0d7f3c239",
+        "thumbs_up": 0,
+        "user_name": "Rahul Kumar Rout"
+      },
+      "scraped_at": "2026-10-13T11:59:39.595866+00:00"
+    },
+    {
+      "uid": "b2f2178e146cb6d4",
+      "source": "play_store",
+      "text": "BEST APP FOR CLOTHE SHOPPING",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=e7feae53-9473-46e1-86db-93118d92ea61",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "e7feae53-9473-46e1-86db-93118d92ea61",
+        "thumbs_up": 0,
+        "user_name": "Pawan Khandelwal"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888572+00:00"
+    },
+    {
+      "uid": "35b80288c1c3e0cb",
+      "source": "play_store",
+      "text": "best quality products",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=249d4d38-1b49-4757-acbb-494c9dfa3d12",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "249d4d38-1b49-4757-acbb-494c9dfa3d12",
+        "thumbs_up": 0,
+        "user_name": "Razana"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888585+00:00"
+    },
+    {
+      "uid": "37661e62b6f6e1e2",
+      "source": "play_store",
+      "text": "this is little much expensive but you never get despoint. because their product are really awesome 👍👍👍",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=bf119239-3884-48d1-aef7-d48ed2e0399f",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "bf119239-3884-48d1-aef7-d48ed2e0399f",
+        "thumbs_up": 0,
+        "user_name": "Muskan Sharma"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888595+00:00"
+    },
+    {
+      "uid": "4b2c0348a3ecfb48",
+      "source": "play_store",
+      "text": "bad no customer support 😔 all automation stress I got the delivery but it shows yet to deliver and wrong sizes not going to buy again",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=c3c66cec-bf3a-4677-ad2c-364318af8998",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "c3c66cec-bf3a-4677-ad2c-364318af8998",
+        "thumbs_up": 0,
+        "user_name": "fortunate consultant"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888603+00:00"
+    },
+    {
+      "uid": "ece8216ad7ae7754",
+      "source": "play_store",
+      "text": "Worst customer experience nowadays. Ordered a trouser, didn't like it, requested for return, pickup boy rejected saying brand tag is missing. After calling customer service I questioned why a product without brand tag is being delivered to customers, so they apologize. A new return requested and the pickup boy rings the bell and runs away. upon calling him, he denies to take the pickup. It's 4th time in the last 2 months when Myntra sends a product without brand tag and later denies to pickup.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=6213693b-6710-47b4-b19a-f3ef6907f041",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "6213693b-6710-47b4-b19a-f3ef6907f041",
+        "thumbs_up": 1,
+        "user_name": "Umakant Khedkar (Pankaj)"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888615+00:00"
+    },
+    {
+      "uid": "32e3a421d52f1cf9",
+      "source": "play_store",
+      "text": "best aap for premium shopping",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=4b33c3f4-f283-4688-9c1e-53a274c9adf9",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "4b33c3f4-f283-4688-9c1e-53a274c9adf9",
+        "thumbs_up": 0,
+        "user_name": "Roni Karmakar"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888618+00:00"
+    },
+    {
+      "uid": "a13cbfe5bf166f92",
+      "source": "play_store",
+      "text": "The fraudster they sent wrong size and now being doing all the dram of tag is missing and stuff first of all you are giving wrong size and not even accountable for this and asking client to give you everything I want my money back",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=edb1f392-3b9f-4b31-b2e2-e0f20e3bb168",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "edb1f392-3b9f-4b31-b2e2-e0f20e3bb168",
+        "thumbs_up": 0,
+        "user_name": "Kavita Kanojia"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888622+00:00"
+    },
+    {
+      "uid": "661cd17c116ebebf",
+      "source": "play_store",
+      "text": "Best app for shopping.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=63da9224-7d13-46d3-aeb3-9bb7f0c669b2",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "63da9224-7d13-46d3-aeb3-9bb7f0c669b2",
+        "thumbs_up": 0,
+        "user_name": "Himanshu Singh"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888625+00:00"
+    },
+    {
+      "uid": "d8c26be16c13bd22",
+      "source": "play_store",
+      "text": "I have been using myntra for a long time now It used to be very good but I don't know how they have manage to keep getting worse and worse. I have ordered 2 things, both are delayed and when I talked to their customer support, they are even worse. I am asking if they have any update regarding delivery they are asking me if i want to cancel my order. Response time is way too slow. I talked to 2 customer support executive both of them not acknowledging the issue.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=6375875a-cf23-474a-b967-e544a9f95b72",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "6375875a-cf23-474a-b967-e544a9f95b72",
+        "thumbs_up": 1,
+        "user_name": "Aarti Jain"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888633+00:00"
+    },
+    {
+      "uid": "f9a8db623b24f3cc",
+      "source": "play_store",
+      "text": "most authentic and original products I just love the quality 😁 it makes me glad whenever I order something from myntra",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=375c9e3a-1a52-4216-8a4b-b37201e12fd6",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "375c9e3a-1a52-4216-8a4b-b37201e12fd6",
+        "thumbs_up": 0,
+        "user_name": "Lovely Sharma 24"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888639+00:00"
+    },
+    {
+      "uid": "98e676947f4976a0",
+      "source": "play_store",
+      "text": "price are higher in offer period and most of the product not in stock starting from the sale beginning..",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=8baa3db6-73e1-46b8-acb3-0896bd65b616",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "8baa3db6-73e1-46b8-acb3-0896bd65b616",
+        "thumbs_up": 0,
+        "user_name": "suman panigrahi"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888643+00:00"
+    },
+    {
+      "uid": "5cb624b52257a45e",
+      "source": "play_store",
+      "text": "such a good and great app to purchase anything",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=eed8c787-5c6e-4583-876d-2fe355d572c1",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "eed8c787-5c6e-4583-876d-2fe355d572c1",
+        "thumbs_up": 0,
+        "user_name": "Chaitanya Bomma"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888650+00:00"
+    },
+    {
+      "uid": "145907de3341f9df",
+      "source": "play_store",
+      "text": "awesome product very nice quality",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=1e6d5ec3-3a83-4a8d-a184-cd55c6c052da",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "1e6d5ec3-3a83-4a8d-a184-cd55c6c052da",
+        "thumbs_up": 0,
+        "user_name": "Ritik singh"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888653+00:00"
+    },
+    {
+      "uid": "5803014578804d0c",
+      "source": "play_store",
+      "text": "This is the best shopping app ever I havent seen such a app which rewards their customers Thank you so much myntra for being there always grateful to be myntra fam",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=e62da26f-f125-4c57-93ab-ee157dc77237",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "e62da26f-f125-4c57-93ab-ee157dc77237",
+        "thumbs_up": 0,
+        "user_name": "Primeworth"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888676+00:00"
+    },
+    {
+      "uid": "5a95d2d72723819a",
+      "source": "play_store",
+      "text": "nice products best budget quality are there in myntra",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=08cf69b3-a1b0-42bb-a690-84acb8b1f5de",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "08cf69b3-a1b0-42bb-a690-84acb8b1f5de",
+        "thumbs_up": 0,
+        "user_name": "Santhosh Goud"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888679+00:00"
+    },
+    {
+      "uid": "fce99e137a7ea7b7",
+      "source": "play_store",
+      "text": "this application is very good",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=d2597093-40d7-4bbb-9546-029e9867e05a",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "d2597093-40d7-4bbb-9546-029e9867e05a",
+        "thumbs_up": 0,
+        "user_name": "MAJID HAMID"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888682+00:00"
+    },
+    {
+      "uid": "3e73c3109e30be0f",
+      "source": "play_store",
+      "text": "no price tags will be given worest",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=0c293562-92d2-4bdb-8194-014f48b57498",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "0c293562-92d2-4bdb-8194-014f48b57498",
+        "thumbs_up": 0,
+        "user_name": "manasa c"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888685+00:00"
+    },
+    {
+      "uid": "c10da14026040084",
+      "source": "play_store",
+      "text": "very good experience",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=4a8ba558-4973-4800-a58b-5a08a894173d",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "4a8ba558-4973-4800-a58b-5a08a894173d",
+        "thumbs_up": 0,
+        "user_name": "Isha Shekhawat"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888688+00:00"
+    },
+    {
+      "uid": "0925ca55ccc34933",
+      "source": "play_store",
+      "text": "nice service and their products",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=27f68883-54e9-4402-b768-da7d39a71c23",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "27f68883-54e9-4402-b768-da7d39a71c23",
+        "thumbs_up": 0,
+        "user_name": "Aditya Raj"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888692+00:00"
+    },
+    {
+      "uid": "a2b49f2e51bdb45d",
+      "source": "play_store",
+      "text": "This app is absolutely useless; I’ve been scammed by them. They neither delivered the product nor issued a refund. Please help—delete this app immediately and file complaints against it.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=3ee587cf-0f82-4b1a-849b-aee06635cedb",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "3ee587cf-0f82-4b1a-849b-aee06635cedb",
+        "thumbs_up": 0,
+        "user_name": "Yash Chouhan"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888700+00:00"
+    },
+    {
+      "uid": "68649609ed4cb6fc",
+      "source": "play_store",
+      "text": "thinking about uninstalling. I am really disappointed by their recent service. Absolute scam behavior. Myntra's logistics team misrouted my package to another state and forced a cancellation. To make it worse, their system permanently pocketed a portion of my Myntra Cash used for the order, claiming it expired in transit. This is pure micro-poaching. They deliberately design their app policies to count on customers not fighting back for small amounts. they will lose loyal customers eventually",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=e0666fc2-4cac-4ebb-b5a2-6d2d51e6d4d3",
+      "rating": 2,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "e0666fc2-4cac-4ebb-b5a2-6d2d51e6d4d3",
+        "thumbs_up": 0,
+        "user_name": "urmila chakraborty"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888708+00:00"
+    },
+    {
+      "uid": "5f7a685d6127a7c0",
+      "source": "play_store",
+      "text": "truly a fabulous app for online shopping.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=f78e56fe-ec9f-4f65-bb4f-f75d68c2e620",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "f78e56fe-ec9f-4f65-bb4f-f75d68c2e620",
+        "thumbs_up": 0,
+        "user_name": "Dhirendra Kumar"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888711+00:00"
+    },
+    {
+      "uid": "6262d3d86b17bc84",
+      "source": "play_store",
+      "text": "I don't know why but whenever I open myntra it feels like old stuff again and again coming. it feels like the local Shop owner has better varieties then online with better pricing",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=fe63a9f9-3ab2-4fe4-9927-897b4ad07c2f",
+      "rating": 3,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "fe63a9f9-3ab2-4fe4-9927-897b4ad07c2f",
+        "thumbs_up": 0,
+        "user_name": "Priya Jain"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888716+00:00"
+    },
+    {
+      "uid": "dee2ea0905fed450",
+      "source": "play_store",
+      "text": "amazing app for online shopping and genuine products with high quality",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=bbc7ac33-2440-4488-876a-016eac945680",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "bbc7ac33-2440-4488-876a-016eac945680",
+        "thumbs_up": 0,
+        "user_name": "Sumit Ghadei"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888719+00:00"
+    },
+    {
+      "uid": "16ba74d0e4ca46c7",
+      "source": "play_store",
+      "text": "worst experience faced with myntra each time",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=94571237-54bc-47d7-b533-556dd95b85c4",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "94571237-54bc-47d7-b533-556dd95b85c4",
+        "thumbs_up": 0,
+        "user_name": "Taruna Mondal"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888725+00:00"
+    },
+    {
+      "uid": "6067be28e5dbee68",
+      "source": "play_store",
+      "text": "Delivery person rude and not delivered at the address. The customer had to go to pick the item at their location.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=0bbe01d5-c026-458c-85de-d1c04ebc005d",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "0bbe01d5-c026-458c-85de-d1c04ebc005d",
+        "thumbs_up": 0,
+        "user_name": "Bhanu Pratap Singh"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888731+00:00"
+    },
+    {
+      "uid": "bae1d0c4ddbe2095",
+      "source": "play_store",
+      "text": "Guys don't download this third class app first of all there is no toll free no.in which we can call I have ordered a pair of embroidered bangle set at their discount my order was about to come on 11th Oct 2026 but it got delayed how long i have to wait? our main festival durga puja is starting at from 16th October and I won't remain home from 17th October onwards till 21st October i even requested call me back since Sunday none of the customer care executive called me back even I raised ticket",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=b8b8b6be-d271-4b7c-a9ea-0163d6804a00",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "b8b8b6be-d271-4b7c-a9ea-0163d6804a00",
+        "thumbs_up": 0,
+        "user_name": "Sharmistha Bagchi"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888739+00:00"
+    },
+    {
+      "uid": "112d4e7708628c66",
+      "source": "play_store",
+      "text": "very bad experience with myntra they didn't refund my money back fraud.dont use this app fraud 😤 😒",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=015efc4e-c254-49a2-b26c-ccb0fc773896",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "015efc4e-c254-49a2-b26c-ccb0fc773896",
+        "thumbs_up": 0,
+        "user_name": "maxxx vivek Acharya"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888745+00:00"
+    },
+    {
+      "uid": "4a04ecc1655f5909",
+      "source": "play_store",
+      "text": "worest support team....that escalation team supervisor her name is akshitha ....she has a very rude behaviour about customer....she is thinking like that customers are fools ...I never suggest someone use myntra again.....if myntra team is reviewing my comment just arrange a conference call with that escalation supervisor akshitha ..... I don't know ..how she got that role .... worest experience...don't use myntra again",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=06e77d02-4af4-4d40-bd5f-16cf67ef95a5",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "06e77d02-4af4-4d40-bd5f-16cf67ef95a5",
+        "thumbs_up": 0,
+        "user_name": "uma devi"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888752+00:00"
+    },
+    {
+      "uid": "85801bd10d558a6c",
+      "source": "play_store",
+      "text": "it has lost its charm. The order was cancelled without any information. Bots everywhere. There is no chance you can talk to humans. The business runs for humans but in an inhumane way. Beware.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=52f18470-414f-4dd1-8e6b-2c375f4495e5",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "52f18470-414f-4dd1-8e6b-2c375f4495e5",
+        "thumbs_up": 0,
+        "user_name": "Supam Das"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888757+00:00"
+    },
+    {
+      "uid": "1c59434066337a30",
+      "source": "play_store",
+      "text": "nice fitting and colour is very good , very comfortable",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=10ff4976-1e3f-4118-b8f8-f2543871cdf1",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "10ff4976-1e3f-4118-b8f8-f2543871cdf1",
+        "thumbs_up": 0,
+        "user_name": "vivek kumar"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888760+00:00"
+    },
+    {
+      "uid": "a14c028962b819fd",
+      "source": "play_store",
+      "text": "experience is very good 😊",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=d9bf26db-8cd9-401f-8352-d97845a75453",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "d9bf26db-8cd9-401f-8352-d97845a75453",
+        "thumbs_up": 0,
+        "user_name": "Satyam Jha"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888764+00:00"
+    },
+    {
+      "uid": "8bdd588324a3795a",
+      "source": "play_store",
+      "text": "best offer for every purchase and very easy handle",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=437aa5b9-5860-4474-a9a9-1ee8465cf3d0",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "437aa5b9-5860-4474-a9a9-1ee8465cf3d0",
+        "thumbs_up": 0,
+        "user_name": "Balaji Kandhappan"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888775+00:00"
+    },
+    {
+      "uid": "3a9693077139fefe",
+      "source": "play_store",
+      "text": "one of the best shopping app",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=3d801cf2-0cbf-44c9-b7fc-c5051b5cf16f",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "3d801cf2-0cbf-44c9-b7fc-c5051b5cf16f",
+        "thumbs_up": 0,
+        "user_name": "Piyush Prajapat"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888778+00:00"
+    },
+    {
+      "uid": "319fce84d052dccb",
+      "source": "play_store",
+      "text": "worst experience, the agent cancelled the order and in app showing the money is credited to my bank but I can't find any money is credited to my account I checked twice also, this is the I'm facing right now please solve the problem as soon as possible and contact me.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=435c6e3a-ae3d-4f53-a8ce-4f33fcbc775b",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "435c6e3a-ae3d-4f53-a8ce-4f33fcbc775b",
+        "thumbs_up": 1,
+        "user_name": "Manasa Telugu"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888783+00:00"
+    },
+    {
+      "uid": "9cd65353df6c0eef",
+      "source": "play_store",
+      "text": "customer care is very worst",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=e9a6cc49-4376-49ac-9a83-7aa513e0656c",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "e9a6cc49-4376-49ac-9a83-7aa513e0656c",
+        "thumbs_up": 1,
+        "user_name": "Divyansh Nikumkar"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888787+00:00"
+    },
+    {
+      "uid": "ec92c1fcf1f81292",
+      "source": "play_store",
+      "text": "False paid reviews and no customer service. These people pay customers to write a positive review. My family has got cheated by their fake reviews",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=54b65a79-6b3b-4e54-aa4f-ae4bb3065cad",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "54b65a79-6b3b-4e54-aa4f-ae4bb3065cad",
+        "thumbs_up": 2,
+        "user_name": "Saurabh Mathur"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888791+00:00"
+    },
+    {
+      "uid": "b864fbd1fb92ee4e",
+      "source": "play_store",
+      "text": "Myntra is a great app for online shopping! 🛍️ It offers a wide variety of trendy clothes, footwear, and accessories at affordable prices. The app is easy to use, and the product collection is amazing. I love the shopping experience and would definitely recommend Myntra to others! ❤️",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=7ec8d45b-3f07-40c8-9c41-e1286c41ffe9",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "7ec8d45b-3f07-40c8-9c41-e1286c41ffe9",
+        "thumbs_up": 0,
+        "user_name": "Sushmitha B"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888799+00:00"
+    },
+    {
+      "uid": "a81f1289648af775",
+      "source": "play_store",
+      "text": "discount bahut deta hai bhai ksm se",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=a114d75a-d817-4713-8cc2-93f5a7994239",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "a114d75a-d817-4713-8cc2-93f5a7994239",
+        "thumbs_up": 0,
+        "user_name": "Abhay yadav"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888802+00:00"
+    },
+    {
+      "uid": "c612217dfe1b05eb",
+      "source": "play_store",
+      "text": "have been using Myntra for years now..always found the app to be extremely easy to use and the UI is beautifully designed and overall the options are quite good and you can belive on the reviews posted for any products.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=58c05aff-5fba-4edf-811d-2a732b2bdd92",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "58c05aff-5fba-4edf-811d-2a732b2bdd92",
+        "thumbs_up": 0,
+        "user_name": "GOURAB SARKAR"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888808+00:00"
+    },
+    {
+      "uid": "63a7fba3e3832e82",
+      "source": "play_store",
+      "text": "I am so happy with the best experience of this app.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=401bf22f-6a0f-47eb-a4c8-1e80404edd20",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "401bf22f-6a0f-47eb-a4c8-1e80404edd20",
+        "thumbs_up": 0,
+        "user_name": "Shraddha"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888812+00:00"
+    },
+    {
+      "uid": "2fc6ce7da4a547d7",
+      "source": "play_store",
+      "text": "Do not buy from Myntra. When I brought a product worth 17k, the product is now missing and Myntra does not even know where the product after it reached the delivery executive hands. They are not willing to say if the product has been stolen or will be replaced or not. Their only response wait for another 24 hrs and after which wait for another 24 hrs.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=f462bd54-f211-4eee-9fc6-b3a5c9246332",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "f462bd54-f211-4eee-9fc6-b3a5c9246332",
+        "thumbs_up": 0,
+        "user_name": "Paul Davies"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888817+00:00"
+    },
+    {
+      "uid": "1d452c4fdbc07f68",
+      "source": "play_store",
+      "text": "very good app 🤩🤩🤩🤩🤩😊😊🧿🧿",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=76f3625d-bfc7-41f3-ab06-7daecf599dfa",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "76f3625d-bfc7-41f3-ab06-7daecf599dfa",
+        "thumbs_up": 0,
+        "user_name": "AMAN"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888825+00:00"
+    },
+    {
+      "uid": "9cdff9305a3115ec",
+      "source": "play_store",
+      "text": "very good quality products",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=a8fd5459-e470-46ec-a230-e4d383ec223f",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "a8fd5459-e470-46ec-a230-e4d383ec223f",
+        "thumbs_up": 0,
+        "user_name": "Krishna Debnath"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888829+00:00"
+    },
+    {
+      "uid": "fc45da6cf4d135a3",
+      "source": "play_store",
+      "text": "best experience and best quality comfortable t-shirts and best and lowest price",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=7e308161-c479-4823-90a8-d8a04eda0721",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "7e308161-c479-4823-90a8-d8a04eda0721",
+        "thumbs_up": 0,
+        "user_name": "DHEERAJ SHARMA"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888832+00:00"
+    },
+    {
+      "uid": "f258fda2d4d176ac",
+      "source": "play_store",
+      "text": "one the best app for good quality product , variety and for customer support satisfaction",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=237fde74-b43a-4ba9-8fbd-5499d3881740",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "237fde74-b43a-4ba9-8fbd-5499d3881740",
+        "thumbs_up": 0,
+        "user_name": "PRATIK JOSHI"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888837+00:00"
+    },
+    {
+      "uid": "7f5c5911c492e064",
+      "source": "play_store",
+      "text": "One of the best applications for buying authenticate clothes.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=0a47b916-3364-448c-8ea3-dcaece4b7b21",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "0a47b916-3364-448c-8ea3-dcaece4b7b21",
+        "thumbs_up": 0,
+        "user_name": "Diwakar Chaurasia"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888840+00:00"
+    },
+    {
+      "uid": "e0f797551d278f75",
+      "source": "play_store",
+      "text": "good app for shopping",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=82c792b1-6a84-41e9-b091-1602abf2aa18",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "82c792b1-6a84-41e9-b091-1602abf2aa18",
+        "thumbs_up": 0,
+        "user_name": "Ashok Sannel"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888844+00:00"
+    },
+    {
+      "uid": "118e654f9b3c4fbc",
+      "source": "play_store",
+      "text": "currently best shopping app in india",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=464b8838-84b8-4d8d-b064-52ce52bd1574",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "464b8838-84b8-4d8d-b064-52ce52bd1574",
+        "thumbs_up": 1,
+        "user_name": "Neha Choudhary"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888848+00:00"
+    },
+    {
+      "uid": "39b051696c276ebb",
+      "source": "play_store",
+      "text": "I love to do shopping in Myntra as right now it is the most trusted brand.",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=f7cf6029-2d4f-4c22-aba2-c8b177f70afd",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "f7cf6029-2d4f-4c22-aba2-c8b177f70afd",
+        "thumbs_up": 0,
+        "user_name": "Sk Naushad"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888853+00:00"
+    },
+    {
+      "uid": "3920ef4c75811643",
+      "source": "play_store",
+      "text": "another issue with my refund I have shared an email attachment bank statement that I have not received my refund of Rs. 2099/- and I promise I am not going to use mytra ever in my life I want my refund ASAP",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=7abbac88-0b63-4d46-a30f-ae8888009030",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "7abbac88-0b63-4d46-a30f-ae8888009030",
+        "thumbs_up": 1,
+        "user_name": "Dimple Bora"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888858+00:00"
+    },
+    {
+      "uid": "6daf7f0b9441cfcf",
+      "source": "play_store",
+      "text": "bahut acha aya h top definetilly le skte h no issue",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=84e0aca3-6f0d-4fbe-a0ea-be1909b40d3a",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "84e0aca3-6f0d-4fbe-a0ea-be1909b40d3a",
+        "thumbs_up": 0,
+        "user_name": "Shrashthi Singh"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888863+00:00"
+    },
+    {
+      "uid": "e5cb6b094071bd3f",
+      "source": "play_store",
+      "text": "my fav e-commerce app",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=d442c8f0-2839-4691-adf1-e15a7eb2c2aa",
+      "rating": 5,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "d442c8f0-2839-4691-adf1-e15a7eb2c2aa",
+        "thumbs_up": 0,
+        "user_name": "Kanak Boro"
+      },
+      "scraped_at": "2026-10-13T11:59:39.888867+00:00"
+    },
+    {
+      "uid": "40cab54a3ac7a8f6",
+      "source": "play_store",
+      "text": "Please don't use this app. They have worst return/refund policy...",
+      "url": "https://play.google.com/store/apps/details?id=com.myntra.android&reviewId=749b285c-d466-4609-b415-cbac0a2692ed",
+      "rating": 1,
+      "date": "2026-10-12",
+      "metadata": {
+        "review_id": "749b285c-d466-4609-b415-cbac0a2692ed",
+        "thumbs_up": 0,
+        "user_name": "Nilabh Talokar"
+      },
+      "scraped_at": "2026-10-13T11:59:40.125247+00:00"
+    },
     {
       "uid": "23291b507b1c73ba",
       "source": "play_store",
