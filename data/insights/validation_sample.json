@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:50:09.437461+00:00",
+  "generated_at": "2026-10-15T09:28:01.137156+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -644,6 +644,26 @@
       }
     },
     {
+      "uid": "95dcf7aa6eb2e1c5",
+      "source": "play_store",
+      "text": "clean shopping experience and genuine products",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "clean_experience",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "02ff501cb4a3ddd7",
       "source": "play_store",
       "text": "best clothes platform",
@@ -772,26 +792,6 @@
         "blocker_type": "delivery_returns",
         "signal_type": "real",
         "theme_label": "slow_delivery",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "453e2bb698526996",
-      "source": "play_store",
-      "text": "Fraud App/Web they Remove Negative Rating and Customer Reviews Feedbacks, help indirectly fraud Sellers..",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "review_manipulation",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
