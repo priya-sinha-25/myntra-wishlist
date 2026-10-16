@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:28:01.137156+00:00",
+  "generated_at": "2026-10-16T09:21:29.213243+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -484,6 +484,26 @@
       }
     },
     {
+      "uid": "0d43bf84f551c357",
+      "source": "play_store",
+      "text": "super quality products",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality",
+        "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "1842fdd6010544d9",
       "source": "play_store",
       "text": "This app is really good 😊",
@@ -772,26 +792,6 @@
         "blocker_type": "price_wait",
         "signal_type": "real",
         "theme_label": "discount_request",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "cac9f6c3827dfbae",
-      "source": "play_store",
-      "text": "product quality bahut aachi h but delivery thodi slow h",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "slow_delivery",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
