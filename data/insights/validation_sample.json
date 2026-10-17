@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T09:21:29.213243+00:00",
+  "generated_at": "2026-10-17T08:53:24.641437+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -464,6 +464,26 @@
       }
     },
     {
+      "uid": "cb821d1ee3eba0bb",
+      "source": "play_store",
+      "text": "Great app for shopping",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "positive_feedback",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "8d58084fff564b64",
       "source": "play_store",
       "text": "best for clothing and appreal",
@@ -773,26 +793,6 @@
         "signal_type": "real",
         "theme_label": "fast_delivery",
         "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "0391d05d19d23770",
-      "source": "play_store",
-      "text": "experience is good please give more discount please",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "price_wait",
-        "signal_type": "real",
-        "theme_label": "discount_request",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
