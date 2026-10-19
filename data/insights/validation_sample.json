@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:10:16.173842+00:00",
+  "generated_at": "2026-10-19T10:18:39.619243+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -53,6 +53,26 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "af787335e895022c",
+      "source": "play_store",
+      "text": "All my orders were cancelled.Only one of my orders was successfully delivered, but I was not satisfied with the product quality, so I placed a return request.It has now been 15 days, and I have still not received my refund. No one has come to pick up the return, yet the status says that I was unable to hand over the product. I have tried contacting customer support multiple times, but even after waiting for 30 minutes, I am unable to connect with a single customer service representative.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "delivery_returns",
+        "signal_type": "real",
+        "theme_label": "refund_not_received",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -144,6 +164,26 @@
       }
     },
     {
+      "uid": "ffbb0feb75bb333f",
+      "source": "play_store",
+      "text": "cheap clothes best quality and got 500 rs off in login",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "login_discount",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "afa8701a0506f4b1",
       "source": "play_store",
       "text": "one of excellent all fashion essentials at one place with genuine quality.",
@@ -173,6 +213,26 @@
         "signal_type": "noise",
         "theme_label": "quality_praise",
         "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "666740aaaa716fcb",
+      "source": "play_store",
+      "text": "I always get best authentic products 😌.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_authenticity",
+        "segment_signal": "heavy_wishlister"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -733,66 +793,6 @@
         "signal_type": "real",
         "theme_label": "app_quality",
         "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "37a38286274f51f0",
-      "source": "play_store",
-      "text": "thank you myntra .....meri jo hi shiqaytein thi ... order ki delivery ko lekar use thek dur krne ki ...and now I'm so happy that I can continue now .....",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_issue_resolved",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "3498481480aa850d",
-      "source": "play_store",
-      "text": "myntra is best! i always find what i am looking for...many varieties",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "positive_general_feedback",
-        "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "255a22d39e65f232",
-      "source": "play_store",
-      "text": "Great products. Fast delivery",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "fast_delivery",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
