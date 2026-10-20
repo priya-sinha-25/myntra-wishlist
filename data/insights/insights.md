@@ -1,20 +1,20 @@
 # Myntra Discovery Insights
 
-Generated: 2026-10-19T10:18:39.550590+00:00
+Generated: 2026-10-20T09:44:27.822058+00:00
 
 ## Summary
-- Total items: **6129**
+- Total items: **6229**
 - Wishlist-related: **118** (1.9%)
 - Silent signals: **46**
 - External validation mentions: **76**
-- Addressable without discount: **5292** (86.3%)
+- Addressable without discount: **5386** (86.5%)
 
 ## Blocker ranking (full corpus)
-- Delivery & returns: 1087
-- App UX issues: 237
-- Quality doubt: 214
-- Price / sale timing: 167
-- Size & fit uncertainty: 77
+- Delivery & returns: 1109
+- App UX issues: 239
+- Quality doubt: 216
+- Price / sale timing: 170
+- Size & fit uncertainty: 79
 - Decision overload: 19
 - Out of stock: 9
 - Forgot / recall failure: 2
@@ -34,11 +34,11 @@ Generated: 2026-10-19T10:18:39.550590+00:00
 
 ## Segment distribution (inferred)
 
-- Passive savers: 2009
-- Deal hunters: 1951
-- Heavy wishlisters: 1107
-- Fit-anxious shoppers: 361
-- Occasion shoppers: 233
+- Passive savers: 2047
+- Deal hunters: 1979
+- Heavy wishlisters: 1122
+- Fit-anxious shoppers: 369
+- Occasion shoppers: 240
 - Post-purchase friction: 131
 - App experience issues: 13
 
@@ -55,4 +55,4 @@ Generated: 2026-10-19T10:18:39.550590+00:00
 
 ## Killer insight
 
-Across **6129** classified reviews, only **1.9%** (118) explicitly mention wishlist behaviour — yet **46** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (1087 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **76** reviews reference external validation before buying saved items.
+Across **6229** classified reviews, only **1.9%** (118) explicitly mention wishlist behaviour — yet **46** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (1109 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **76** reviews reference external validation before buying saved items.

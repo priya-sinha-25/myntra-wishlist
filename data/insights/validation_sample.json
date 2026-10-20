@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:18:39.619243+00:00",
+  "generated_at": "2026-10-20T09:44:27.869661+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -724,6 +724,26 @@
       }
     },
     {
+      "uid": "2c8ad47951d84e5d",
+      "source": "play_store",
+      "text": "best app for shopping",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "noise",
+        "theme_label": "app_praise",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "4bfac7265c6ed004",
       "source": "play_store",
       "text": "best app in this universe 🙏😀",
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "positive_general_feedback",
         "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "0a08c583e95e6738",
-      "source": "play_store",
-      "text": "good App with genuine Products",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "app_quality",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
