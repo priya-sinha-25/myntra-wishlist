@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:39:24.534361+00:00",
+  "generated_at": "2026-10-24T09:11:01.331047+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -744,6 +744,26 @@
       }
     },
     {
+      "uid": "15409e3137036e77",
+      "source": "play_store",
+      "text": "good fabric and delivered on time",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality",
+        "segment_signal": "passive_saver"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "4bfac7265c6ed004",
       "source": "play_store",
       "text": "best app in this universe 🙏😀",
@@ -772,26 +792,6 @@
         "blocker_type": "none",
         "signal_type": "real",
         "theme_label": "clean_experience",
-        "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "02ff501cb4a3ddd7",
-      "source": "play_store",
-      "text": "best clothes platform",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "noise",
-        "theme_label": "positive_general_feedback",
         "segment_signal": "passive_saver"
       },
       "human_labels": {
