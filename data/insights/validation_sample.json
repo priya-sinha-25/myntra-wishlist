@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:11:01.331047+00:00",
+  "generated_at": "2026-10-25T09:28:14.715300+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -704,6 +704,26 @@
       }
     },
     {
+      "uid": "79724c2c60d6551f",
+      "source": "play_store",
+      "text": "cloth quality is very good",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "product_quality",
+        "segment_signal": "fit_anxious"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
       "uid": "cbb90f882a9acc41",
       "source": "play_store",
       "text": "love the app because it's so easy to navigate and shop on. love the product collection as well.",
@@ -773,26 +793,6 @@
         "signal_type": "noise",
         "theme_label": "app_praise",
         "segment_signal": "heavy_wishlister"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "95dcf7aa6eb2e1c5",
-      "source": "play_store",
-      "text": "clean shopping experience and genuine products",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "clean_experience",
-        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
