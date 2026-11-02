@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-01T11:36:14.596696+00:00",
+  "generated_at": "2026-11-02T12:54:49.382745+00:00",
   "summary": {
-    "total_items": 7429,
-    "wishlist_related_count": 118,
+    "total_items": 7529,
+    "wishlist_related_count": 119,
     "wishlist_related_pct": 1.6,
-    "real_signal_count": 5167,
-    "silent_signal_count": 48,
-    "noise_count": 2214,
-    "addressable_without_discount_count": 6503,
-    "addressable_without_discount_pct": 87.5,
-    "external_validation_count": 82
+    "real_signal_count": 5235,
+    "silent_signal_count": 50,
+    "noise_count": 2244,
+    "addressable_without_discount_count": 6597,
+    "addressable_without_discount_pct": 87.6,
+    "external_validation_count": 83
   },
   "source_breakdown": {
     "reddit": 35,
@@ -17,23 +17,23 @@
     "social": 17,
     "app_store": 5,
     "quora": 2,
-    "play_store": 7337,
+    "play_store": 7437,
     "blog": 5,
     "ux_research": 11
   },
   "signal_breakdown": {
-    "silent": 48,
-    "real": 5167,
-    "noise": 2214
+    "silent": 50,
+    "real": 5235,
+    "noise": 2244
   },
   "blocker_ranking": [
     [
       "delivery_returns",
-      1394
+      1427
     ],
     [
       "app_ux",
-      296
+      298
     ],
     [
       "quality_doubt",
@@ -45,7 +45,7 @@
     ],
     [
       "size_fit",
-      86
+      87
     ],
     [
       "decision_overload",
@@ -105,27 +105,27 @@
   "segment_distribution": [
     [
       "passive_saver",
-      2432,
+      2468,
       "Passive savers"
     ],
     [
       "deal_hunter",
-      2424,
+      2459,
       "Deal hunters"
     ],
     [
       "heavy_wishlister",
-      1362,
+      1382,
       "Heavy wishlisters"
     ],
     [
       "fit_anxious",
-      431,
+      435,
       "Fit-anxious shoppers"
     ],
     [
       "occasion_shopper",
-      286,
+      291,
       "Occasion shoppers"
     ],
     [
@@ -142,7 +142,7 @@
   "wishlist_segment_distribution": [
     [
       "heavy_wishlister",
-      36,
+      37,
       "Heavy wishlisters"
     ],
     [
@@ -169,15 +169,15 @@
   "funnel_step_distribution": [
     [
       "none",
-      5231
+      5290
     ],
     [
       "purchase",
-      1962
+      2001
     ],
     [
       "pdp",
-      77
+      79
     ],
     [
       "uncertainty",
@@ -294,12 +294,12 @@
       "quote": "Duplicate listings for same kurta set confuse me when comparing wishlisted items on Myntra."
     }
   ],
-  "killer_insight_hypothesis": "Across **7429** classified reviews, only **1.6%** (118) explicitly mention wishlist behaviour — yet **48** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (1394 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **82** reviews reference external validation before buying saved items.",
+  "killer_insight_hypothesis": "Across **7529** classified reviews, only **1.6%** (119) explicitly mention wishlist behaviour — yet **50** show **silent decision gaps** (users leave to validate on YouTube, Instagram, or via friends without asking Myntra for help). Loud Play Store complaints centre on **Delivery & returns** (1427 mentions); wishlist conversion friction is largely **unvoiced**. Among wishlist-tagged reviews, **Size & fit uncertainty** leads (28 mentions). **83** reviews reference external validation before buying saved items.",
   "key_findings": [
     "Only 1.6% of reviews explicitly mention wishlist — decision failure is mostly silent.",
-    "Top loud blocker: Delivery & returns (1394 mentions)",
-    "Silent signals detected: 48 reviews imply decision gaps without asking for help.",
-    "External validation (YouTube/friends/Instagram): 82 mentions.",
+    "Top loud blocker: Delivery & returns (1427 mentions)",
+    "Silent signals detected: 50 reviews imply decision gaps without asking for help.",
+    "External validation (YouTube/friends/Instagram): 83 mentions.",
     "Among wishlist-tagged reviews, top blocker is Size & fit uncertainty (28 mentions)."
   ]
 }
