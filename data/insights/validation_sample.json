@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:51:12.525748+00:00",
+  "generated_at": "2026-11-15T12:18:18.284355+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -764,14 +764,14 @@
       }
     },
     {
-      "uid": "dffa9fd93dc0a8c3",
+      "uid": "b48cce7d57432c2d",
       "source": "play_store",
-      "text": "excellence service and good product quality as mentioned in product details",
+      "text": "worst customer service product has been returned but still not refunded the cashback their call option on app is terrible they are not ready to listen at all just hanging up the calls while speaking",
       "ai_labels": {
         "wishlist_related": false,
-        "blocker_type": "none",
+        "blocker_type": "delivery_returns",
         "signal_type": "real",
-        "theme_label": "service_quality",
+        "theme_label": "refund_not_processed",
         "segment_signal": "passive_saver"
       },
       "human_labels": {
@@ -784,14 +784,14 @@
       }
     },
     {
-      "uid": "74a612b3a8c76a0c",
+      "uid": "dffa9fd93dc0a8c3",
       "source": "play_store",
-      "text": "amazing app for makeup and ethnic wear",
+      "text": "excellence service and good product quality as mentioned in product details",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
         "signal_type": "real",
-        "theme_label": "app_appreciation",
+        "theme_label": "service_quality",
         "segment_signal": "passive_saver"
       },
       "human_labels": {
