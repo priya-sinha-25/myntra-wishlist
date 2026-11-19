@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:28:12.630376+00:00",
+  "generated_at": "2026-11-19T13:51:12.971296+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -333,6 +333,26 @@
         "signal_type": "noise",
         "theme_label": "unrelated",
         "segment_signal": "unknown"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "b431e2d22aeb5ab5",
+      "source": "play_store",
+      "text": "Tq so much 🙏 nice product I am so happy",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "positive_feedback",
+        "segment_signal": "passive_saver"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -772,26 +792,6 @@
         "blocker_type": "delivery_returns",
         "signal_type": "real",
         "theme_label": "delivery_experience",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "d451c701823a0166",
-      "source": "play_store",
-      "text": "I really love this app there products are original and there prices are also very low compare to other apps they provide a best services...",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "price_low",
         "segment_signal": "deal_hunter"
       },
       "human_labels": {
