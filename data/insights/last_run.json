@@ -1,9 +1,9 @@
 {
-  "ran_at": "2026-11-20T13:32:14.631675+00:00",
+  "ran_at": "2026-11-21T13:03:34.663204+00:00",
   "mode": "daily_sync",
   "seeds_added": 0,
   "scraped": 100,
-  "corpus_total": 9321,
-  "tagged_total": 9321,
+  "corpus_total": 9421,
+  "tagged_total": 9421,
   "classify_limit": null
 }
