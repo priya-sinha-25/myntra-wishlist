@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T15:16:46.687435+00:00",
+  "generated_at": "2026-11-24T15:14:43.449726+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
@@ -173,6 +173,26 @@
         "signal_type": "real",
         "theme_label": "app_availability",
         "segment_signal": "heavy_wishlister"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "1068beafafc50011",
+      "source": "play_store",
+      "text": "classic pricing and very timely delivery. highly recommended.",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "pricing_and_delivery",
+        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
@@ -447,6 +467,26 @@
       "uid": "8b8025645dba97fd",
       "source": "play_store",
       "text": "Good product, hassle-free delivery, a little costly but clothes are worth it",
+      "ai_labels": {
+        "wishlist_related": false,
+        "blocker_type": "none",
+        "signal_type": "real",
+        "theme_label": "value_for_money",
+        "segment_signal": "deal_hunter"
+      },
+      "human_labels": {
+        "wishlist_related": null,
+        "blocker_type": null,
+        "signal_type": null,
+        "theme_label": null,
+        "segment_signal": null,
+        "agreement": null
+      }
+    },
+    {
+      "uid": "f63b49fe175ba3a1",
+      "source": "play_store",
+      "text": "Good quality product at cheap price. Value for money.Satisfied with the purchase.",
       "ai_labels": {
         "wishlist_related": false,
         "blocker_type": "none",
@@ -753,46 +793,6 @@
         "signal_type": "noise",
         "theme_label": "positive_app_feedback",
         "segment_signal": "passive_saver"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "c8e6c670c8938ca4",
-      "source": "play_store",
-      "text": "best online shopping app I have ever seen",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "none",
-        "signal_type": "real",
-        "theme_label": "app_experience_positive",
-        "segment_signal": "deal_hunter"
-      },
-      "human_labels": {
-        "wishlist_related": null,
-        "blocker_type": null,
-        "signal_type": null,
-        "theme_label": null,
-        "segment_signal": null,
-        "agreement": null
-      }
-    },
-    {
-      "uid": "021acf818a8577bc",
-      "source": "play_store",
-      "text": "worst experience because of delivery agent",
-      "ai_labels": {
-        "wishlist_related": false,
-        "blocker_type": "delivery_returns",
-        "signal_type": "real",
-        "theme_label": "delivery_experience",
-        "segment_signal": "deal_hunter"
       },
       "human_labels": {
         "wishlist_related": null,
