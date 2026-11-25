@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:14:43.449726+00:00",
+  "generated_at": "2026-11-25T14:55:32.002085+00:00",
   "sample_size": 40,
   "instructions": "Fill human_labels fields, set agreement=true/false, then run validate.py --score",
   "items": [
